@@ -1,0 +1,63 @@
+﻿  Camera.cpp
+c:\users\peter\source\repos\project3\project3\camera.cpp(26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Engine.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  GLFWManager.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Game.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  GameManager.cpp
+  GlobalAmbientLight.cpp
+  InputManager.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(86): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(87): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(92): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(93): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  LightManager.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Logger.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Mesh.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Model.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  ModelImporter.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  ModelManager.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Mtx.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+c:\users\peter\source\repos\project3\project3\mtx.cpp(1279): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\peter\source\repos\project3\project3\mtx.cpp(1280): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\peter\source\repos\project3\project3\mtx.cpp(1297): warning C4305: '*=': truncation from 'double' to 'float'
+  RenderManager.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Shader.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Source.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  TimeManager.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Transform.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  data.cpp
+  glad.c
+GLFWManager.obj : error LNK2001: unresolved external symbol glfwSwapInterval
+GLFWManager.obj : error LNK2001: unresolved external symbol glfwTerminate
+GLFWManager.obj : error LNK2001: unresolved external symbol glfwInit
+GLFWManager.obj : error LNK2001: unresolved external symbol glfwSetKeyCallback
+GLFWManager.obj : error LNK2001: unresolved external symbol glfwCreateWindow
+GLFWManager.obj : error LNK2001: unresolved external symbol glfwWindowHint
+GLFWManager.obj : error LNK2001: unresolved external symbol glfwSetInputMode
+GLFWManager.obj : error LNK2001: unresolved external symbol glfwMakeContextCurrent
+GLFWManager.obj : error LNK2001: unresolved external symbol glfwDestroyWindow
+GLFWManager.obj : error LNK2001: unresolved external symbol glfwGetProcAddress
+GLFWManager.obj : error LNK2001: unresolved external symbol glfwSetCursorPosCallback
+GLFWManager.obj : error LNK2001: unresolved external symbol glfwWindowShouldClose
+TimeManager.obj : error LNK2001: unresolved external symbol glfwGetTime
+Engine.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
+Engine.obj : error LNK2001: unresolved external symbol glfwGetFramebufferSize
+Engine.obj : error LNK2001: unresolved external symbol glfwGetCurrentContext
+Engine.obj : error LNK2001: unresolved external symbol glfwPollEvents
+C:\Users\Peter\source\repos\Project3\Project3\OpenGL Game Engine.exe : fatal error LNK1120: 17 unresolved externals

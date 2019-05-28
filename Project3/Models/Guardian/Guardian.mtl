@@ -1,0 +1,24 @@
+# Blender3D MTL File: Guardian.blend
+# Material Count: 2
+newmtl RefRep.369_Guardian_Energy_T
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.558431 0.558431 0.558431
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Guardian Energy Texture.png
+
+
+newmtl RefRep.367_Guardian_Body_Tex
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.558431 0.558431 0.558431
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Guardian Body Texture.png
+
+

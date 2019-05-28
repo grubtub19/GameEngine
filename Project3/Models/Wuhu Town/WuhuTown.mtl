@@ -1,0 +1,1450 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 15.10.2018 19:50:32
+
+newmtl wire_255255000
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.0000 1.0000 0.0000
+	Kd 1.0000 1.0000 0.0000
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wth_LeafFlower_Bake
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_Leaf_Flower_Alb.png
+	map_Kd wto_Leaf_Flower_Alb.png
+	map_d wto_Leaf_Flower_Alb.png
+
+newmtl wto_Tent
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_tents_Alb.png
+	map_Kd wto_tents_Alb.png
+	map_d wto_tents_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_mortar_Orange
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_mortarwall03_Alb.png
+	map_Kd wto_mortarwall03_Alb.png
+	map_d wto_mortarwall03_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_mortar_Pink
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_mortarwall02_Alb.png
+	map_Kd wto_mortarwall02_Alb.png
+	map_d wto_mortarwall02_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_grass01far
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_grass01_Alb.png
+	map_Kd bwt_hm_grass01_Alb.png
+	map_d bwt_hm_grass01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl m_hwood2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_hwood07_Alb.png
+	map_Kd ct_hwood07_Alb.png
+	map_d ct_hwood07_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl ct_hwood08
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_hwood08_Alb.png
+	map_Kd ct_hwood08_Alb.png
+	map_d ct_hwood08_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_mortar_Yellow
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_swall05_Alb.png
+	map_Kd ct_swall05_Alb.png
+	map_d ct_swall05_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl m_HouseDodai00
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_Dodai00_Alb.png
+	map_Kd wto_Dodai00_Alb.png
+	map_d wto_Dodai00_Alb.png
+
+newmtl wts_Bridge_Fence
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_Bridge_Fence_Alb.png
+	map_Kd wts_Bridge_Fence_Alb.png
+	map_d wts_Bridge_Fence_Alb.png
+
+newmtl wts_Bridge
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_Bridge_Alb.png
+	map_Kd wts_Bridge_Alb.png
+	map_d wts_Bridge_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_roadbrick04
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_roadbrick04_Alb.png
+	map_Kd bwt_hm_roadbrick04_Alb.png
+	map_d bwt_hm_roadbrick04_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_house_window
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_House_WindowDoor_Alb.png
+	map_Kd wto_House_WindowDoor_Alb.png
+	map_d wto_House_WindowDoor_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl ct_hwood03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_hwood03_Alb.png
+	map_Kd ct_hwood03_Alb.png
+	map_d ct_hwood03_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_HandRail
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_HandRail_Alb.png
+	map_Kd wto_HandRail_Alb.png
+	map_d wto_HandRail_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_roofBrawn01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_hroof03_Alb.png
+	map_Kd ct_hroof03_Alb.png
+	map_d ct_hroof03_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_roofPink01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_hroof06_Alb.png
+	map_Kd ct_hroof06_Alb.png
+	map_d ct_hroof06_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_car
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_car_Alb.png
+	map_Kd wto_car_Alb.png
+	map_d wto_car_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_metalparts
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_metal_Alb.png
+	map_Kd wto_metal_Alb.png
+	map_d wto_metal_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wts_Vender_ClearParts
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_Vender_ClearParts_Alb.png
+	map_Kd wts_Vender_ClearParts_Alb.png
+	map_d wts_Vender_ClearParts_Alb.png
+
+newmtl wto_mortar_White
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_mortarwall01_Alb.png
+	map_Kd wto_mortarwall01_Alb.png
+	map_d wto_mortarwall01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_FlagRopeRY
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_FlagRopeRY_Alb.png
+	map_Kd bwt_FlagRopeRY_Alb.png
+	map_d bwt_FlagRopeRY_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_FlagRopeBG
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_FlagRopeBG_Alb.png
+	map_Kd bwt_FlagRopeBG_Alb.png
+	map_d bwt_FlagRopeBG_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_FlagRopeGC
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_FlagRopeGC_Alb.png
+	map_Kd bwt_FlagRopeGC_Alb.png
+	map_d bwt_FlagRopeGC_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_Tapestry
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_Tapestry_Alb.png
+	map_Kd wto_Tapestry_Alb.png
+	map_d wto_Tapestry_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_fountainbrick01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_fountainbrick01_Alb.png
+	map_Kd bwt_hm_fountainbrick01_Alb.png
+	map_d bwt_hm_fountainbrick01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wts_Bowling_Glas01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_Bowling_Glas_Alb.png
+	map_Kd wts_Bowling_Glas_Alb.png
+	map_d wts_Bowling_Glas_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wts_BasketGoal
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_BasketGoal_Alb.png
+	map_Kd wts_BasketGoal_Alb.png
+	map_d wts_BasketGoal_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wts_Bowling
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_Bowling_Alb.png
+	map_Kd wts_Bowling_Alb.png
+	map_d wts_Bowling_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_roadPort01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_asphalt01_Alb.png
+	map_Kd ct_asphalt01_Alb.png
+	map_d ct_asphalt01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_roofGreen01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_hroof01_Alb.png
+	map_Kd ct_hroof01_Alb.png
+	map_d ct_hroof01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl m_HouseDodai01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_Dodai01_Alb.png
+	map_Kd wto_Dodai01_Alb.png
+	map_d wto_Dodai01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_wallbrick02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_wallbrick02_Alb.png
+	map_Kd wto_wallbrick02_Alb.png
+	map_d wto_wallbrick02_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wts_LightHouse
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_LightHouse_Alb.png
+	map_Kd wts_LightHouse_Alb.png
+	map_d wts_LightHouse_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl ct_wood03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_wood03_Alb.png
+	map_Kd ct_wood03_Alb.png
+	map_d ct_wood03_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wts_Bowling_Kanban
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_Bowling_Kanban_Alb.png
+	map_Kd wts_Bowling_Kanban_Alb.png
+	map_d wts_Bowling_Kanban_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_ClockParts
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_ClockParts_Alb.png
+	map_Kd wto_ClockParts_Alb.png
+	map_d wto_ClockParts_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wts_Bowling_Naka
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl wth_LeafPlantAB_Bake
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka PlantA_01_Alb.png
+	map_Kd PlantA_01_Alb.png
+	map_d PlantA_01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_roadside01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_roadside01_Alb.png
+	map_Kd bwt_hm_roadside01_Alb.png
+	map_d bwt_hm_roadside01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl TreeSph_Leaf
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka TreeSph_Leaf_Alb.png
+	map_Kd TreeSph_Leaf_Alb.png
+	map_d TreeSph_Leaf_Alb.png
+
+newmtl TeeSph_Bark
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka TreeSph_Bark_Alb.png
+	map_Kd TreeSph_Bark_Alb.png
+	map_d TreeSph_Bark_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl TreeSph_LeafBase
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka TreeSph_LeafBase_Alb.png
+	map_Kd TreeSph_LeafBase_Alb.png
+	map_d TreeSph_LeafBase_Alb.png
+
+newmtl ct_slight01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_slight01_Alb.png
+	map_Kd ct_slight01_Alb.png
+	map_d ct_slight01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_wallbrick01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_wallbrick01_Alb.png
+	map_Kd bwt_hm_wallbrick01_Alb.png
+	map_d bwt_hm_wallbrick01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl ct_hwood02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_hwood02_Alb.png
+	map_Kd ct_hwood02_Alb.png
+	map_d ct_hwood02_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wta_Yacht
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wta_YachtTexAT_Alb.png
+	map_Kd wta_YachtTexAT_Alb.png
+	map_d wta_YachtTexAT_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_roofYellow01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_hroof07_Alb.png
+	map_Kd ct_hroof07_Alb.png
+	map_d ct_hroof07_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_sand01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_sand01_Alb.png
+	map_Kd bwt_hm_sand01_Alb.png
+	map_d bwt_hm_sand01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_cliff01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_cliff01_Alb.png
+	map_Kd bwt_hm_cliff01_Alb.png
+	map_d bwt_hm_cliff01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wts_BasketCourt
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_BasketCourt_Alb.png
+	map_Kd wts_BasketCourt_Alb.png
+	map_d wts_BasketCourt_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_enkei01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_enkei01_Alb.png
+	map_Kd bwt_hm_enkei01_Alb.png
+	map_d bwt_hm_enkei01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_fence
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_Fence_Alb.png
+	map_Kd wto_Fence_Alb.png
+	map_d wto_Fence_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_LeafFlower_NoBake
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka gcbp_ry_flowers01_Alb.png
+	map_Kd gcbp_ry_flowers01_Alb.png
+	map_d gcbp_ry_flowers01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_grass01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_grass01_Alb.png
+	map_Kd bwt_hm_grass01_Alb.png
+	map_d bwt_hm_grass01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl TreeTri_Leaf
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka TreeTri_Leaf_Alb.png
+	map_Kd TreeTri_Leaf_Alb.png
+	map_d TreeTri_Leaf_Alb.png
+
+newmtl wto_ShopRepeatA
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_ShopRepeatA_Alb.png
+	map_Kd wto_ShopRepeatA_Alb.png
+	map_d wto_ShopRepeatA_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_roofBlue01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_roofBlue01_Alb.png
+	map_Kd bwt_roofBlue01_Alb.png
+	map_d bwt_roofBlue01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_roofOrange01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_hroof02_Alb.png
+	map_Kd ct_hroof02_Alb.png
+	map_d ct_hroof02_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl test_Asphalt
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_road03_Alb.png
+	map_Kd ct_road03_Alb.png
+	map_d ct_road03_Alb.png
+
+newmtl wth_roadsoil01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_roadsoil01_Alb.png
+	map_Kd bwt_hm_roadsoil01_Alb.png
+	map_d bwt_hm_roadsoil01_Alb.png
+
+newmtl wth_roadcircle01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_roadcircle01_Alb.png
+	map_Kd bwt_hm_roadcircle01_Alb.png
+	map_d bwt_hm_roadcircle01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_roadcircle02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_roadcircle02_Alb.png
+	map_Kd bwt_hm_roadcircle02_Alb.png
+	map_d bwt_hm_roadcircle02_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_roadbrickcircle01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_roadbrickCircle01_Alb.png
+	map_Kd bwt_hm_roadbrickCircle01_Alb.png
+	map_d bwt_hm_roadbrickCircle01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_Shop
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_Shop_Alb.png
+	map_Kd wto_Shop_Alb.png
+	map_d wto_Shop_Alb.png
+
+newmtl TreeTri_Bark
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka TreeTri_bark_Alb.png
+	map_Kd TreeTri_bark_Alb.png
+	map_d TreeTri_bark_Alb.png
+
+newmtl wtk_BellArch
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_BellArch_Alb.png
+	map_Kd wto_BellArch_Alb.png
+	map_d wto_BellArch_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wts_Fence
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_Fence_Alb.png
+	map_Kd wts_Fence_Alb.png
+	map_d wts_Fence_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wta_YochtHarborFloat
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wta_YachtHarborFloat_Alb.png
+	map_Kd wta_YachtHarborFloat_Alb.png
+	map_d wta_YachtHarborFloat_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wta_PleasureBoat
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wta_PleasureBoat_Alb.png
+	map_Kd wta_PleasureBoat_Alb.png
+	map_d wta_PleasureBoat_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wta_ShipHull
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wta_ShipHull_Alb.png
+	map_Kd wta_ShipHull_Alb.png
+	map_d wta_ShipHull_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_WhiteBlock
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_WhiteBlock_Alb.png
+	map_Kd wto_WhiteBlock_Alb.png
+	map_d wto_WhiteBlock_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_SignBoard
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_SignBoard01_Alb.png
+	map_Kd wto_SignBoard01_Alb.png
+	map_d wto_SignBoard01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_SignBoard_HighTrm
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_SignBoard01_Alb.png
+	map_Kd wto_SignBoard01_Alb.png
+	map_d wto_SignBoard01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wts_Bowling_Glas02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_Bowling_Glas_Alb.png
+	map_Kd wts_Bowling_Glas_Alb.png
+	map_d wts_Bowling_Glas_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wts_Vender
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_Vender_Alb.png
+	map_Kd wts_Vender_Alb.png
+	map_d wts_Vender_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_ClockDoor
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_ClockDoor_Alb.png
+	map_Kd wto_ClockDoor_Alb.png
+	map_d wto_ClockDoor_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wta_ShipRepeat
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wta_ShipRepeat_Alb.png
+	map_Kd wta_ShipRepeat_Alb.png
+	map_d wta_ShipRepeat_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_mud01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_mud01_Alb.png
+	map_Kd bwt_hm_mud01_Alb.png
+	map_d bwt_hm_mud01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wto_Leaf_Ivy
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_Leaf_Ivy_Alb.png
+	map_Kd wto_Leaf_Ivy_Alb.png
+	map_d wto_Leaf_Ivy_Alb.png
+
+newmtl wto_BlockPirror
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wto_swall_Alb.png
+	map_Kd wto_swall_Alb.png
+	map_d wto_swall_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wts_Block
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wts_Block_Alb.png
+	map_Kd wts_Block_Alb.png
+	map_d wts_Block_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl ef_sea04
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ef_sea04_Alb.png
+	map_Kd ef_sea04_Alb.png
+	map_d ef_sea04_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wta_Mountain
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka wta_Mountain_Alb.png
+	map_Kd wta_Mountain_Alb.png
+	map_d wta_Mountain_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl ct_landScape01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ct_landScape01_Alb.png
+	map_Kd ct_landScape01_Alb.png
+	map_d ct_landScape01_Alb.png
+
+newmtl wth_roadcircleE01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_roadcircleE01_Alb.png
+	map_Kd bwt_hm_roadcircleE01_Alb.png
+	map_d bwt_hm_roadcircleE01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_roadcircleN01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_roadcircleN01_Alb.png
+	map_Kd bwt_hm_roadcircleN01_Alb.png
+	map_d bwt_hm_roadcircleN01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_roadcircleS01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_roadcircleS01_Alb.png
+	map_Kd bwt_hm_roadcircleS01_Alb.png
+	map_d bwt_hm_roadcircleS01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_roadcircleW01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_roadcircleW01_Alb.png
+	map_Kd bwt_hm_roadcircleW01_Alb.png
+	map_d bwt_hm_roadcircleW01_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga
+
+newmtl wth_treekakiwari01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka bwt_hm_treekakiwari01_Alb.png
+	map_Kd bwt_hm_treekakiwari01_Alb.png
+	map_d bwt_hm_treekakiwari01_Alb.png
+
+newmtl ef_waterfall02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ef_waterfall02_Alb.png
+	map_Kd ef_waterfall02_Alb.png
+	map_d ef_waterfall02_Alb.png
+	map_bump -bm 0.3000 Normal_Bump_Normal_Bump.tga

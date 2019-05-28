@@ -1,0 +1,68 @@
+﻿  data.cpp
+  InputManager.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(56): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(57): error C2065: 'key_status': undeclared identifier
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(66): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(67): error C2065: 'key_status': undeclared identifier
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(69): error C2065: 'key_status': undeclared identifier
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(70): error C2065: 'key_status': undeclared identifier
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(73): error C2065: 'key_status': undeclared identifier
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(86): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(87): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(92): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\peter\source\repos\project3\project3\inputmanager.cpp(93): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  LightManager.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Mesh.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Model.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  ModelManager.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Source.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Logger.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  GLFWManager.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Shader.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+c:\users\peter\source\repos\project3\project3\shader.cpp(24): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+c:\users\peter\source\repos\project3\project3\shader.cpp(24): error C2039: 'path': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\experimental\filesystem(30): note: see declaration of 'std'
+c:\users\peter\source\repos\project3\project3\shader.cpp(24): error C2065: 'path': undeclared identifier
+c:\users\peter\source\repos\project3\project3\shader.cpp(24): error C2146: syntax error: missing ';' before identifier 'relativePath'
+c:\users\peter\source\repos\project3\project3\shader.cpp(24): error C2065: 'relativePath': undeclared identifier
+c:\users\peter\source\repos\project3\project3\shader.cpp(24): error C2039: 'current_path': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\experimental\filesystem(30): note: see declaration of 'std'
+c:\users\peter\source\repos\project3\project3\shader.cpp(24): error C3861: 'current_path': identifier not found
+c:\users\peter\source\repos\project3\project3\shader.cpp(26): error C2065: 'relativePath': undeclared identifier
+c:\users\peter\source\repos\project3\project3\shader.cpp(27): error C2065: 'relativePath': undeclared identifier
+c:\users\peter\source\repos\project3\project3\shader.cpp(30): error C2065: 'relativePath': undeclared identifier
+c:\users\peter\source\repos\project3\project3\shader.cpp(30): error C2660: 'Shader::readShaderSource': function does not take 4 arguments
+  c:\users\peter\source\repos\project3\project3\shader.h(22): note: see declaration of 'Shader::readShaderSource'
+c:\users\peter\source\repos\project3\project3\shader.cpp(31): error C2065: 'relativePath': undeclared identifier
+c:\users\peter\source\repos\project3\project3\shader.cpp(31): error C2660: 'Shader::readShaderSource': function does not take 4 arguments
+  c:\users\peter\source\repos\project3\project3\shader.h(22): note: see declaration of 'Shader::readShaderSource'
+  Camera.cpp
+c:\users\peter\source\repos\project3\project3\camera.cpp(26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Mtx.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+c:\users\peter\source\repos\project3\project3\mtx.cpp(1279): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\peter\source\repos\project3\project3\mtx.cpp(1280): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\peter\source\repos\project3\project3\mtx.cpp(1297): warning C4305: '*=': truncation from 'double' to 'float'
+  RenderManager.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Game.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  ModelImporter.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  GlobalAmbientLight.cpp
+  GameManager.cpp
+  TimeManager.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Transform.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared
+  Engine.cpp
+c:\users\peter\source\repos\project3\project3\logger.h(14): warning C4091: 'static ': ignored on left of 'Logger' when no variable is declared

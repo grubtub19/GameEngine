@@ -1,0 +1,1745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{9e6f6283-7d2b-44c0-896b-67276abbc08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\TGS_Remila">
+      <UniqueIdentifier>{4a51afd4-9793-45e0-a482-418590212524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Guardian">
+      <UniqueIdentifier>{96a5a15d-1132-4e84-87ec-49ec1f56b702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Wuhu Town">
+      <UniqueIdentifier>{69ec4897-7674-4294-b950-50ed5b5a533c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Cube">
+      <UniqueIdentifier>{7c12bd99-8ef3-4124-a1d3-adccadb382d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Quad">
+      <UniqueIdentifier>{a2b13907-bcde-4fb9-ac05-0d4a35cc0520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Wuhu Town\Textures">
+      <UniqueIdentifier>{81bef79d-c3fb-4876-adb0-5362248cb8e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Rectangle">
+      <UniqueIdentifier>{98b7785b-72dd-4501-9f3a-020c849e8350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Jojo">
+      <UniqueIdentifier>{352f2099-c3a4-4318-8665-573cb57c0792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Man Ray">
+      <UniqueIdentifier>{31a45c12-6357-434d-b811-7e831b2715ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{2b25c8da-368b-4887-b209-52c667bd18a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Axis">
+      <UniqueIdentifier>{52005ac9-615c-4825-a2d1-47613060db85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Alien">
+      <UniqueIdentifier>{5ef56dc2-3b40-440e-ac1d-299de4c457ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Stick">
+      <UniqueIdentifier>{b081b72b-1b36-4a8b-949a-8cfd910fedb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Pete">
+      <UniqueIdentifier>{ced462cd-ccc8-418d-9597-6c5022180856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Batman">
+      <UniqueIdentifier>{0be4c17d-ce87-4126-a1b3-aa41d41100b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Miku">
+      <UniqueIdentifier>{d6cc28a4-472a-4de9-a707-95f7fbe69e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Knight">
+      <UniqueIdentifier>{868d29e1-2eb0-48f3-a06b-1bf03c30edab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Lady">
+      <UniqueIdentifier>{b77a6da0-291d-4e42-b998-5f635aea0dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Waluigi">
+      <UniqueIdentifier>{ae1ed0ed-eb7f-4c60-a69f-a7cd87ea0f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Knuckles">
+      <UniqueIdentifier>{06abf773-5973-4d78-8e02-04ce4aa97680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Dojo">
+      <UniqueIdentifier>{a68321a8-3fe7-42c8-ab47-4ec105550bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Dojo\textures">
+      <UniqueIdentifier>{aab30d70-b668-4154-ba05-6331c2631638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Lamp">
+      <UniqueIdentifier>{c66ab0c2-41a0-42fc-a358-5302de586df1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mtx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalAmbientLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mtx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFWManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalAmbientLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bones.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\TGS_Remila\TGS_Remila.dae">
+      <Filter>Models\TGS_Remila</Filter>
+    </None>
+    <None Include="Models\Guardian\Guardian.blend">
+      <Filter>Models\Guardian</Filter>
+    </None>
+    <None Include="Models\Guardian\Guardian.mtl">
+      <Filter>Models\Guardian</Filter>
+    </None>
+    <None Include="Models\Wuhu Town\WuhuTown.FBX">
+      <Filter>Models\Wuhu Town</Filter>
+    </None>
+    <None Include="Models\Wuhu Town\WuhuTown.mtl">
+      <Filter>Models\Wuhu Town</Filter>
+    </None>
+    <None Include="Models\Cube\Companion.fbx">
+      <Filter>Models\Cube</Filter>
+    </None>
+    <None Include="Models\Quad\Quad.fbx">
+      <Filter>Models\Quad</Filter>
+    </None>
+    <None Include="Models\Rectangle\Rectangle.fbx">
+      <Filter>Models\Rectangle</Filter>
+    </None>
+    <None Include="Models\Jojo\Giorno Giovanna.mtl">
+      <Filter>Models\Jojo</Filter>
+    </None>
+    <None Include="Models\Man Ray\manray.dae">
+      <Filter>Models\Man Ray</Filter>
+    </None>
+    <None Include="Shaders\skinned_mesh_shader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\default.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\default.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\mesh_shader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\mesh_shader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\skinned_mesh_shader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Scenes\level1.json">
+      <Filter>Scenes</Filter>
+    </None>
+    <None Include="Scenes\nowuhu.json">
+      <Filter>Scenes</Filter>
+    </None>
+    <None Include="Models\Cube\Companion_ascii.fbx">
+      <Filter>Models\Cube</Filter>
+    </None>
+    <None Include="Models\Stick\stick.fbx">
+      <Filter>Models\Stick</Filter>
+    </None>
+    <None Include="Models\Axis\axis.fbx">
+      <Filter>Models\Axis</Filter>
+    </None>
+    <None Include="Models\Alien\scene.gltf">
+      <Filter>Models\Alien</Filter>
+    </None>
+    <None Include="Models\Alien\scene.bin">
+      <Filter>Models\Alien</Filter>
+    </None>
+    <None Include="Models\Pete\Petey piranha.dae">
+      <Filter>Models\Pete</Filter>
+    </None>
+    <None Include="Models\Pete\Petey piranha.fbx">
+      <Filter>Models\Pete</Filter>
+    </None>
+    <None Include="Models\Batman\Batman Animated.DAE">
+      <Filter>Models\Batman</Filter>
+    </None>
+    <None Include="Models\Miku\Tda式初音ミク・アペンド_Ver1.10.pmx">
+      <Filter>Models\Miku</Filter>
+    </None>
+    <None Include="Models\TGS_Remila\animated.dae">
+      <Filter>Models\TGS_Remila</Filter>
+    </None>
+    <None Include="Models\Knight\AntlerKnight.FBX">
+      <Filter>Models\Knight</Filter>
+    </None>
+    <None Include="Models\Knight\Knight.fbx">
+      <Filter>Models\Knight</Filter>
+    </None>
+    <None Include="Models\Lady\Horo_V1.0_LGMODS.pmx">
+      <Filter>Models\Lady</Filter>
+    </None>
+    <None Include="Models\Lady\nah.spa">
+      <Filter>Models\Lady</Filter>
+    </None>
+    <None Include="Models\Lady\Rifle Weapon.pmx">
+      <Filter>Models\Lady</Filter>
+    </None>
+    <None Include="Models\Lady\BlackS.sph">
+      <Filter>Models\Lady</Filter>
+    </None>
+    <None Include="Models\Lady\Hair.spa">
+      <Filter>Models\Lady</Filter>
+    </None>
+    <None Include="Models\Miku\miku3.fbx">
+      <Filter>Models\Miku</Filter>
+    </None>
+    <None Include="Models\Waluigi\waluigi.pmx">
+      <Filter>Models\Waluigi</Filter>
+    </None>
+    <None Include="Models\Knuckles\knuckles.fbx">
+      <Filter>Models\Knuckles</Filter>
+    </None>
+    <None Include="Models\Knuckles\knuckles.dae">
+      <Filter>Models\Knuckles</Filter>
+    </None>
+    <None Include="Models\Dojo\Dojo.fbx">
+      <Filter>Models\Dojo</Filter>
+    </None>
+    <None Include="Models\Lady\lady.fbx">
+      <Filter>Models\Lady</Filter>
+    </None>
+    <None Include="Models\Lamp\light_desk.mtl">
+      <Filter>Models\Lamp</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Models\TGS_Remila\Chara_Rml_00_Alb.png">
+      <Filter>Models\TGS_Remila</Filter>
+    </Image>
+    <Image Include="Models\TGS_Remila\Chara_Rml_01_Alb.png">
+      <Filter>Models\TGS_Remila</Filter>
+    </Image>
+    <Image Include="Models\default.png">
+      <Filter>Models</Filter>
+    </Image>
+    <Image Include="Models\Guardian\Guardian Image.jpg">
+      <Filter>Models\Guardian</Filter>
+    </Image>
+    <Image Include="Models\Guardian\Textures\Guardian Energy Texture.png">
+      <Filter>Models\Guardian</Filter>
+    </Image>
+    <Image Include="Models\Guardian\Textures\Guardian Body Texture.png">
+      <Filter>Models\Guardian</Filter>
+    </Image>
+    <Image Include="Models\Cube\2169505_orig.png">
+      <Filter>Models\Cube</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g01_b00_f00.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g01_b00_f01.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g01_b00_f02.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g01_b01_f00.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g01_b01_f01.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g01_b01_f02.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g02_b00_f00.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g02_b01_f00.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g03_b00_f00.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g03_b01_f00.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g04_b00_f00.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g04_b01_f00.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_flagropebg_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_flagropebg_trm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_flagropegc_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_flagropegc_trm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_flagropery_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_flagropery_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_flagropery_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_flagropery_trm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_cliff01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_cliff01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_enkei01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_enkei01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_enkei01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_fountainbrick01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_fountainbrick01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_fountainbrick01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_grass01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_grass01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_mud01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_mud01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_mud01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadbrick04_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadbrick04_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadbrick04_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadbrickcircle01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadbrickcircle01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadbrickcircle01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircle01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircle01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircle01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircle02_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircle02_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircle02_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclee01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclee01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclee01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclen01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclen01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclen01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircles01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircles01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircles01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclew01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclew01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclew01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadside01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadside01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadside01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_roadsoil01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_sand01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_sand01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_treekakiwari01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_wallbrick01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_wallbrick01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_hm_wallbrick01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\bwt_roofblue01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_asphalt01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_asphalt01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_asphalt01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hroof01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hroof01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hroof01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hroof02_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hroof03_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hroof06_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hroof07_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hwood02_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hwood02_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hwood02_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hwood03_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hwood03_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hwood03_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hwood07_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_hwood08_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_landscape01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_road03_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_slight01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_slight01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_slight01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_swall05_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_swall05_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_swall05_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_wood03_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_wood03_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ct_wood03_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ef_sea04_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ef_sea04_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ef_sea04_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ef_waterfall02_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\ef_waterfall02_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\gcbp_ry_flowers01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\gcbp_ry_flowers01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\gcbp_ry_flowers01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\planta_01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\planta_01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\planta_01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\test_grass_color_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\treesph_bark_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\treesph_bark_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\treesph_bark_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\treesph_leaf_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\treesph_leaf_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\treesph_leafbase_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\treesph_leafbase_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\treetri_bark_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\treetri_leaf_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_mountain_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_mountain_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_pleasureboat_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_pleasureboat_emm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_pleasureboat_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_pleasureboat_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_shiphull_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_shiphull_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_shiphull_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_shiprepeat_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_shiprepeat_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_shiprepeat_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_yachtharborfloat_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_yachtharborfloat_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_yachtharborfloat_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_yachttexat_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_yachttexat_thm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_yachttexsn_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wta_yachttexsn_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_bellarch_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_bellarch_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_bellarch_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_car_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_car_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_car_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_clockdoor_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_clockdoor_emm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_clockdoor_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_clockdoor_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_clockparts_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_clockparts_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_clockparts_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_dodai00_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_dodai00_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_dodai01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_dodai01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_dodai01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_fence_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_fence_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_fence_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_handrail_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_handrail_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_handrail_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_house_windowdoor_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_house_windowdoor_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_house_windowdoor_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_leaf_flower_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_leaf_flower_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_leaf_ivy_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_leaf_ivy_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_metal_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_metal_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_metal_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_mortarwall01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_mortarwall02_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_mortarwall03_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_shop_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_shoprepeata_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_shoprepeata_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_shoprepeata_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_signboard01_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_signboard01_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_signboard01_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_signboard01_trm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_swall_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_swall_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_swall_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_tapestry_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_tapestry_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_tapestry_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_tapestry_trm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_tents_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_tents_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_tents_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_wallbrick02_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_wallbrick02_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_wallbrick02_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_whiteblock_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_whiteblock_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wto_whiteblock_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_basketcourt_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_basketcourt_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_basketcourt_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_basketgoal_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_basketgoal_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_basketgoal_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_block_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_block_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_block_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bowling_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bowling_emm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bowling_glas_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bowling_glas_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bowling_glas_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bowling_kanban_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bowling_kanban_emm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bowling_kanban_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bowling_kanban_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bowling_naka_emm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bowling_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bowling_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bridge_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bridge_fence_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bridge_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_bridge_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_fence_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_fence_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_fence_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_lighthouse_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_lighthouse_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_lighthouse_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_vender_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_vender_clearparts_alb.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_vender_clearparts_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_vender_emm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_vender_nrm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Wuhu Town\wts_vender_spm.png">
+      <Filter>Models\Wuhu Town\Textures</Filter>
+    </Image>
+    <Image Include="Models\Quad\wood.jpg">
+      <Filter>Models\Quad</Filter>
+    </Image>
+    <Image Include="Models\Rectangle\Mobile - My Singing Monsters Dawn of Fire - The Continent.png">
+      <Filter>Models\Rectangle</Filter>
+    </Image>
+    <Image Include="Models\Jojo\ntxr01.png">
+      <Filter>Models\Jojo</Filter>
+    </Image>
+    <Image Include="Models\Jojo\ntxr002.png">
+      <Filter>Models\Jojo</Filter>
+    </Image>
+    <Image Include="Models\Jojo\ntxr02.png">
+      <Filter>Models\Jojo</Filter>
+    </Image>
+    <Image Include="Models\Jojo\ntxr003.png">
+      <Filter>Models\Jojo</Filter>
+    </Image>
+    <Image Include="Models\Jojo\ntxr004.png">
+      <Filter>Models\Jojo</Filter>
+    </Image>
+    <Image Include="Models\Jojo\ntxr000.png">
+      <Filter>Models\Jojo</Filter>
+    </Image>
+    <Image Include="Models\Jojo\ntxr00.png">
+      <Filter>Models\Jojo</Filter>
+    </Image>
+    <Image Include="Models\Jojo\ntxr001.png">
+      <Filter>Models\Jojo</Filter>
+    </Image>
+    <Image Include="Models\Man Ray\Image_2D_0002_0010.png">
+      <Filter>Models\Man Ray</Filter>
+    </Image>
+    <Image Include="Models\Stick\ismail-inceoglu-carrotland.jpg">
+      <Filter>Models\Stick</Filter>
+    </Image>
+    <Image Include="Models\Alien\blinn1_baseColor.png">
+      <Filter>Models\Alien</Filter>
+    </Image>
+    <Image Include="Models\Alien\blinn1_emissive.png">
+      <Filter>Models\Alien</Filter>
+    </Image>
+    <Image Include="Models\Alien\blinn1_metallicRoughness.png">
+      <Filter>Models\Alien</Filter>
+    </Image>
+    <Image Include="Models\Alien\blinn1_normal.png">
+      <Filter>Models\Alien</Filter>
+    </Image>
+    <Image Include="Models\Alien\material0_baseColor.png">
+      <Filter>Models\Alien</Filter>
+    </Image>
+    <Image Include="Models\Alien\material0_emissive.png">
+      <Filter>Models\Alien</Filter>
+    </Image>
+    <Image Include="Models\Alien\material0_metallicRoughness.png">
+      <Filter>Models\Alien</Filter>
+    </Image>
+    <Image Include="Models\Alien\material0_normal.png">
+      <Filter>Models\Alien</Filter>
+    </Image>
+    <Image Include="Models\Pete\pakkun_3.tga.png">
+      <Filter>Models\Pete</Filter>
+    </Image>
+    <Image Include="Models\Pete\pakkun_nuki3.tga.png">
+      <Filter>Models\Pete</Filter>
+    </Image>
+    <Image Include="Models\Pete\H_toon_2_4i.tga.png">
+      <Filter>Models\Pete</Filter>
+    </Image>
+    <Image Include="Models\Batman\Animated_Series_Batman_leg_M.png">
+      <Filter>Models\Batman</Filter>
+    </Image>
+    <Image Include="Models\Batman\Animated_Series_Batman_leg_N.png">
+      <Filter>Models\Batman</Filter>
+    </Image>
+    <Image Include="Models\Batman\Batman_AS_Cape_Walking_N.png">
+      <Filter>Models\Batman</Filter>
+    </Image>
+    <Image Include="Models\Batman\Batman_V3_Cape_DS_1-4_D.png">
+      <Filter>Models\Batman</Filter>
+    </Image>
+    <Image Include="Models\Batman\V2_Batman_Cape_N2.png">
+      <Filter>Models\Batman</Filter>
+    </Image>
+    <Image Include="Models\Batman\V3_Batman_Cape_N2_Wave.png">
+      <Filter>Models\Batman</Filter>
+    </Image>
+    <Image Include="Models\Batman\Animated_Series_Batman_Cape_D.png">
+      <Filter>Models\Batman</Filter>
+    </Image>
+    <Image Include="Models\Batman\Animated_Series_Batman_cloth_D.png">
+      <Filter>Models\Batman</Filter>
+    </Image>
+    <Image Include="Models\Batman\Animated_Series_Batman_cloth_M.png">
+      <Filter>Models\Batman</Filter>
+    </Image>
+    <Image Include="Models\Batman\Animated_Series_Batman_cloth_N.png">
+      <Filter>Models\Batman</Filter>
+    </Image>
+    <Image Include="Models\Batman\Animated_Series_Batman_leg_D.png">
+      <Filter>Models\Batman</Filter>
+    </Image>
+    <Image Include="Models\Miku\body01_s.bmp">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\body02_MikuAp.tga">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\face_MikuAp.tga">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\hair_MikuAp.tga">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\hair_s.bmp">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\skin_s.bmp">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\toon_defo.bmp">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\toon_hair.bmp">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\toon_skin.bmp">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\wing_MikuAp.tga">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\アペミクさんのSDEF箇所.jpg">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\AL注意点.jpg">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\body00_MikuAp.tga">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\body00_s.bmp">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Miku\body01_MikuAp.tga">
+      <Filter>Models\Miku</Filter>
+    </Image>
+    <Image Include="Models\Knight\antlerKnight_diffuse.png">
+      <Filter>Models\Knight</Filter>
+    </Image>
+    <Image Include="Models\Knight\antlerKnight_opacity.png">
+      <Filter>Models\Knight</Filter>
+    </Image>
+    <Image Include="Models\Lady\head_n.tga">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Lady\head_s.tga">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Lady\rifle_d.tga">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Lady\rifle_l.tga">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Lady\rifle_n.tga">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Lady\rifle_s.tga">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Lady\aya_kurome_ref.png">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Lady\body_d.tga">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Lady\body_l.tga">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Lady\body_n.tga">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Lady\body_s.tga">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Lady\head_d.tga">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Lady\head_l.tga">
+      <Filter>Models\Lady</Filter>
+    </Image>
+    <Image Include="Models\Waluigi\walu_eyeball_r.png">
+      <Filter>Models\Waluigi</Filter>
+    </Image>
+    <Image Include="Models\Waluigi\waluigi_all_alb.png">
+      <Filter>Models\Waluigi</Filter>
+    </Image>
+    <Image Include="Models\Waluigi\walu_eyeball_l.png">
+      <Filter>Models\Waluigi</Filter>
+    </Image>
+    <Image Include="Models\Knuckles\Knuckles color.png">
+      <Filter>Models\Knuckles</Filter>
+    </Image>
+    <Image Include="Models\Knuckles\eyes.png">
+      <Filter>Models\Knuckles</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bake_bu_dojo_g01_b00_f00.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bake_bu_dojo_g01_b00_f01.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bake_bu_dojo_g01_b00_f02.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bake_bu_dojo_g01_b01_f00.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bake_bu_dojo_g01_b01_f01.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bake_bu_dojo_g01_b01_f02.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bake_bu_dojo_g02_b00_f00.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bake_bu_dojo_g02_b01_f00.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bake_bu_dojo_g03_b00_f00.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bake_bu_dojo_g03_b01_f00.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_bambooroad2_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_bambooroad2_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_bambooroad2_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_cubemap_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_dragonthrone_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_dragonthrone_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_dragonthrone_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_fence_nuki_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_frame_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_frame_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_frame_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_gong_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_gong_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_gong_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_houseparts_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_houseparts_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_houseparts_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_jugemmark_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_jugemmark_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_jugemmark_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_jump_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_jump_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_jump_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_kakiwari_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_pillar_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_pillar_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_pillar_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_road1_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_road1_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_road1_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_road2_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_road2_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_road2_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_road3_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_road3_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_road4_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_road4_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_road4_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_stonewall_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_stonewall_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_stonewall_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_towerparts1_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_towerparts1_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_towerparts1_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_towerparts2_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_towerparts2_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_towerparts2_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_towerparts3_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_towerparts3_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_towerparts3_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_tyochin_nuki_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_tyochin_nuki_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_tyochin_nuki_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_window_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_window_alb2.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_window_emm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_window_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_window_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_woodfloor_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_woodfloor_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_woodfloor_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_woodfloor2_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_woodfloor2_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_woodfloor2_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_woodfloor3_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_woodfloor3_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_woodfloor3_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_woodwall_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_woodwall_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\bud_woodwall_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\ct_ry_flowers01_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\ct_ry_flowers01_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\ct_ry_flowers01_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\dl_treepine_bark_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\dl_treepine_bark_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\dl_treepine_bark_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\dl_treepine_leaf_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\dl_treepine_leaf_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\dl_treepine_leaf_trm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\uex_mc_field_enkei_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tyochin2_emm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tyochin2_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tyochin_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tyochin_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tyochin_emm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tyochin_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tourou_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tourou_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tourou_emm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tourou_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tenjyo_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tenjyo_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_tenjyo_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_startgate_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_startgate_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_startgate_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_rock01_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_rock01_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_rock01_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_marumado_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_marumado_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_marumado_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_glass_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_glass_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_glass_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_enkeijugem_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_enkeijugem_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_enkeijugem_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_enkeiglass_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_enkeiblock_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_enkeiblock_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_enkeiblock_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_bodylight_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_bodylight_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_bodylight_emm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\udr_bodylight_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\planta_01_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\planta_01_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\planta_01_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\panelflame_spm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\panelflame_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\panelflame_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\ef_dashboard02_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\ef_dashboard01_alb.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Dojo\ef_dashboard_nrm.png">
+      <Filter>Models\Dojo\textures</Filter>
+    </Image>
+    <Image Include="Models\Lamp\light_desk_diffuse.png">
+      <Filter>Models\Lamp</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Models\Guardian\Guardian.obj">
+      <Filter>Models\Guardian</Filter>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Models\Wuhu Town\WuhuTown.obj">
+      <Filter>Models\Wuhu Town</Filter>
+    </Object>
+    <Object Include="Models\Jojo\Giorno Giovanna.obj">
+      <Filter>Models\Jojo</Filter>
+    </Object>
+    <Object Include="Models\Lamp\light_desk.obj">
+      <Filter>Models\Lamp</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{0D178A1E-6B6C-464B-A347-A2E6FADC2C6A}</ProjectGuid>
+    <RootNamespace>Project3</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>OpenGL Game Engine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\All\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\All\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp-vc140-mt.lib;glfw3.lib;soil2-debug.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\All\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\All\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp-vc140-mt.lib;glfw3.lib;soil2-debug.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\All\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\All\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp-vc140-mt.lib;glfw3.lib;soil2-debug.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bones.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="DataManager.cpp" />
+    <ClCompile Include="data.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="LightManager.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MeshRenderer.cpp" />
+    <ClCompile Include="AnimationController.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="SkeletalAnimation.cpp" />
+    <ClCompile Include="Skeleton.cpp" />
+    <ClCompile Include="SkinnedMeshRenderer.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="GLFWManager.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Mtx.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="ModelImporter.cpp" />
+    <ClCompile Include="GlobalAmbientLight.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="Engine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bones.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="DataManager.h" />
+    <ClInclude Include="data.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GlobalAmbientLight.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="MeshRenderer.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="SkeletalAnimation.h" />
+    <ClInclude Include="Skeleton.h" />
+    <ClInclude Include="SkinnedMeshRenderer.h" />
+    <ClInclude Include="TimeManager.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="LightManager.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="AnimationController.h" />
+    <ClInclude Include="ModelImporter.h" />
+    <ClInclude Include="PoolAllocator.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Mtx.h" />
+    <ClInclude Include="GLFWManager.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Logger.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\Alien\scene.bin" />
+    <None Include="Models\Alien\scene.gltf" />
+    <None Include="Models\Axis\axis.fbx" />
+    <None Include="Models\Batman\Batman Animated.DAE" />
+    <None Include="Models\Cube\Companion.fbx" />
+    <None Include="Models\Cube\Companion_ascii.fbx" />
+    <None Include="Models\Dojo\Dojo.fbx" />
+    <None Include="Models\Guardian\Guardian.blend" />
+    <None Include="Models\Guardian\Guardian.mtl" />
+    <None Include="Models\Jojo\Giorno Giovanna.mtl" />
+    <None Include="Models\Knight\AntlerKnight.FBX" />
+    <None Include="Models\Knight\Knight.fbx" />
+    <None Include="Models\Knuckles\knuckles.dae" />
+    <None Include="Models\Knuckles\knuckles.fbx" />
+    <None Include="Models\Lady\BlackS.sph" />
+    <None Include="Models\Lady\Hair.spa" />
+    <None Include="Models\Lady\Horo_V1.0_LGMODS.pmx" />
+    <None Include="Models\Lady\lady.fbx" />
+    <None Include="Models\Lady\nah.spa" />
+    <None Include="Models\Lady\Rifle Weapon.pmx" />
+    <None Include="Models\Lamp\light_desk.mtl" />
+    <None Include="Models\Man Ray\manray.dae" />
+    <None Include="Models\Miku\miku3.fbx" />
+    <None Include="Models\Miku\Tda式初音ミク・アペンド_Ver1.10.pmx" />
+    <None Include="Models\Pete\Petey piranha.dae" />
+    <None Include="Models\Pete\Petey piranha.fbx" />
+    <None Include="Models\Quad\Quad.fbx" />
+    <None Include="Models\Rectangle\Rectangle.fbx" />
+    <None Include="Models\Stick\stick.fbx" />
+    <None Include="Models\TGS_Remila\animated.dae" />
+    <None Include="Models\TGS_Remila\TGS_Remila.dae" />
+    <None Include="Models\Waluigi\waluigi.pmx" />
+    <None Include="Models\Wuhu Town\WuhuTown.FBX" />
+    <None Include="Models\Wuhu Town\WuhuTown.mtl" />
+    <None Include="Scenes\level1.json" />
+    <None Include="Scenes\nowuhu.json" />
+    <None Include="Shaders\default.frag" />
+    <None Include="Shaders\default.vert" />
+    <None Include="Shaders\mesh_shader.frag" />
+    <None Include="Shaders\mesh_shader.vert" />
+    <None Include="Shaders\skinned_mesh_shader.frag" />
+    <None Include="Shaders\skinned_mesh_shader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Models\Alien\blinn1_baseColor.png" />
+    <Image Include="Models\Alien\blinn1_emissive.png" />
+    <Image Include="Models\Alien\blinn1_metallicRoughness.png" />
+    <Image Include="Models\Alien\blinn1_normal.png" />
+    <Image Include="Models\Alien\material0_baseColor.png" />
+    <Image Include="Models\Alien\material0_emissive.png" />
+    <Image Include="Models\Alien\material0_metallicRoughness.png" />
+    <Image Include="Models\Alien\material0_normal.png" />
+    <Image Include="Models\Batman\Animated_Series_Batman_Cape_D.png" />
+    <Image Include="Models\Batman\Animated_Series_Batman_cloth_D.png" />
+    <Image Include="Models\Batman\Animated_Series_Batman_cloth_M.png" />
+    <Image Include="Models\Batman\Animated_Series_Batman_cloth_N.png" />
+    <Image Include="Models\Batman\Animated_Series_Batman_leg_D.png" />
+    <Image Include="Models\Batman\Animated_Series_Batman_leg_M.png" />
+    <Image Include="Models\Batman\Animated_Series_Batman_leg_N.png" />
+    <Image Include="Models\Batman\Batman_AS_Cape_Walking_N.png" />
+    <Image Include="Models\Batman\Batman_V3_Cape_DS_1-4_D.png" />
+    <Image Include="Models\Batman\V2_Batman_Cape_N2.png" />
+    <Image Include="Models\Batman\V3_Batman_Cape_N2_Wave.png" />
+    <Image Include="Models\Cube\2169505_orig.png" />
+    <Image Include="Models\default.png" />
+    <Image Include="Models\Dojo\bake_bu_dojo_g01_b00_f00.png" />
+    <Image Include="Models\Dojo\bake_bu_dojo_g01_b00_f01.png" />
+    <Image Include="Models\Dojo\bake_bu_dojo_g01_b00_f02.png" />
+    <Image Include="Models\Dojo\bake_bu_dojo_g01_b01_f00.png" />
+    <Image Include="Models\Dojo\bake_bu_dojo_g01_b01_f01.png" />
+    <Image Include="Models\Dojo\bake_bu_dojo_g01_b01_f02.png" />
+    <Image Include="Models\Dojo\bake_bu_dojo_g02_b00_f00.png" />
+    <Image Include="Models\Dojo\bake_bu_dojo_g02_b01_f00.png" />
+    <Image Include="Models\Dojo\bake_bu_dojo_g03_b00_f00.png" />
+    <Image Include="Models\Dojo\bake_bu_dojo_g03_b01_f00.png" />
+    <Image Include="Models\Dojo\bud_bambooroad2_alb.png" />
+    <Image Include="Models\Dojo\bud_bambooroad2_nrm.png" />
+    <Image Include="Models\Dojo\bud_bambooroad2_spm.png" />
+    <Image Include="Models\Dojo\bud_cubemap_alb.png" />
+    <Image Include="Models\Dojo\bud_dragonthrone_alb.png" />
+    <Image Include="Models\Dojo\bud_dragonthrone_nrm.png" />
+    <Image Include="Models\Dojo\bud_dragonthrone_spm.png" />
+    <Image Include="Models\Dojo\bud_fence_nuki_alb.png" />
+    <Image Include="Models\Dojo\bud_frame_alb.png" />
+    <Image Include="Models\Dojo\bud_frame_nrm.png" />
+    <Image Include="Models\Dojo\bud_frame_spm.png" />
+    <Image Include="Models\Dojo\bud_gong_alb.png" />
+    <Image Include="Models\Dojo\bud_gong_nrm.png" />
+    <Image Include="Models\Dojo\bud_gong_spm.png" />
+    <Image Include="Models\Dojo\bud_houseparts_alb.png" />
+    <Image Include="Models\Dojo\bud_houseparts_nrm.png" />
+    <Image Include="Models\Dojo\bud_houseparts_spm.png" />
+    <Image Include="Models\Dojo\bud_jugemmark_alb.png" />
+    <Image Include="Models\Dojo\bud_jugemmark_nrm.png" />
+    <Image Include="Models\Dojo\bud_jugemmark_spm.png" />
+    <Image Include="Models\Dojo\bud_jump_alb.png" />
+    <Image Include="Models\Dojo\bud_jump_nrm.png" />
+    <Image Include="Models\Dojo\bud_jump_spm.png" />
+    <Image Include="Models\Dojo\bud_kakiwari_alb.png" />
+    <Image Include="Models\Dojo\bud_pillar_alb.png" />
+    <Image Include="Models\Dojo\bud_pillar_nrm.png" />
+    <Image Include="Models\Dojo\bud_pillar_spm.png" />
+    <Image Include="Models\Dojo\bud_road1_alb.png" />
+    <Image Include="Models\Dojo\bud_road1_nrm.png" />
+    <Image Include="Models\Dojo\bud_road1_spm.png" />
+    <Image Include="Models\Dojo\bud_road2_alb.png" />
+    <Image Include="Models\Dojo\bud_road2_nrm.png" />
+    <Image Include="Models\Dojo\bud_road2_spm.png" />
+    <Image Include="Models\Dojo\bud_road3_alb.png" />
+    <Image Include="Models\Dojo\bud_road3_nrm.png" />
+    <Image Include="Models\Dojo\bud_road4_alb.png" />
+    <Image Include="Models\Dojo\bud_road4_nrm.png" />
+    <Image Include="Models\Dojo\bud_road4_spm.png" />
+    <Image Include="Models\Dojo\bud_stonewall_alb.png" />
+    <Image Include="Models\Dojo\bud_stonewall_nrm.png" />
+    <Image Include="Models\Dojo\bud_stonewall_spm.png" />
+    <Image Include="Models\Dojo\bud_towerparts1_alb.png" />
+    <Image Include="Models\Dojo\bud_towerparts1_nrm.png" />
+    <Image Include="Models\Dojo\bud_towerparts1_spm.png" />
+    <Image Include="Models\Dojo\bud_towerparts2_alb.png" />
+    <Image Include="Models\Dojo\bud_towerparts2_nrm.png" />
+    <Image Include="Models\Dojo\bud_towerparts2_spm.png" />
+    <Image Include="Models\Dojo\bud_towerparts3_alb.png" />
+    <Image Include="Models\Dojo\bud_towerparts3_nrm.png" />
+    <Image Include="Models\Dojo\bud_towerparts3_spm.png" />
+    <Image Include="Models\Dojo\bud_tyochin_nuki_alb.png" />
+    <Image Include="Models\Dojo\bud_tyochin_nuki_nrm.png" />
+    <Image Include="Models\Dojo\bud_tyochin_nuki_spm.png" />
+    <Image Include="Models\Dojo\bud_window_alb.png" />
+    <Image Include="Models\Dojo\bud_window_alb2.png" />
+    <Image Include="Models\Dojo\bud_window_emm.png" />
+    <Image Include="Models\Dojo\bud_window_nrm.png" />
+    <Image Include="Models\Dojo\bud_window_spm.png" />
+    <Image Include="Models\Dojo\bud_woodfloor2_alb.png" />
+    <Image Include="Models\Dojo\bud_woodfloor2_nrm.png" />
+    <Image Include="Models\Dojo\bud_woodfloor2_spm.png" />
+    <Image Include="Models\Dojo\bud_woodfloor3_alb.png" />
+    <Image Include="Models\Dojo\bud_woodfloor3_nrm.png" />
+    <Image Include="Models\Dojo\bud_woodfloor3_spm.png" />
+    <Image Include="Models\Dojo\bud_woodfloor_alb.png" />
+    <Image Include="Models\Dojo\bud_woodfloor_nrm.png" />
+    <Image Include="Models\Dojo\bud_woodfloor_spm.png" />
+    <Image Include="Models\Dojo\bud_woodwall_alb.png" />
+    <Image Include="Models\Dojo\bud_woodwall_nrm.png" />
+    <Image Include="Models\Dojo\bud_woodwall_spm.png" />
+    <Image Include="Models\Dojo\ct_ry_flowers01_alb.png" />
+    <Image Include="Models\Dojo\ct_ry_flowers01_nrm.png" />
+    <Image Include="Models\Dojo\ct_ry_flowers01_spm.png" />
+    <Image Include="Models\Dojo\dl_treepine_bark_alb.png" />
+    <Image Include="Models\Dojo\dl_treepine_bark_nrm.png" />
+    <Image Include="Models\Dojo\dl_treepine_bark_spm.png" />
+    <Image Include="Models\Dojo\dl_treepine_leaf_alb.png" />
+    <Image Include="Models\Dojo\dl_treepine_leaf_spm.png" />
+    <Image Include="Models\Dojo\dl_treepine_leaf_trm.png" />
+    <Image Include="Models\Dojo\ef_dashboard01_alb.png" />
+    <Image Include="Models\Dojo\ef_dashboard02_alb.png" />
+    <Image Include="Models\Dojo\ef_dashboard_nrm.png" />
+    <Image Include="Models\Dojo\panelflame_alb.png" />
+    <Image Include="Models\Dojo\panelflame_nrm.png" />
+    <Image Include="Models\Dojo\panelflame_spm.png" />
+    <Image Include="Models\Dojo\planta_01_alb.png" />
+    <Image Include="Models\Dojo\planta_01_nrm.png" />
+    <Image Include="Models\Dojo\planta_01_spm.png" />
+    <Image Include="Models\Dojo\udr_bodylight_alb.png" />
+    <Image Include="Models\Dojo\udr_bodylight_emm.png" />
+    <Image Include="Models\Dojo\udr_bodylight_nrm.png" />
+    <Image Include="Models\Dojo\udr_bodylight_spm.png" />
+    <Image Include="Models\Dojo\udr_enkeiblock_alb.png" />
+    <Image Include="Models\Dojo\udr_enkeiblock_nrm.png" />
+    <Image Include="Models\Dojo\udr_enkeiblock_spm.png" />
+    <Image Include="Models\Dojo\udr_enkeiglass_alb.png" />
+    <Image Include="Models\Dojo\udr_enkeijugem_alb.png" />
+    <Image Include="Models\Dojo\udr_enkeijugem_nrm.png" />
+    <Image Include="Models\Dojo\udr_enkeijugem_spm.png" />
+    <Image Include="Models\Dojo\udr_glass_alb.png" />
+    <Image Include="Models\Dojo\udr_glass_nrm.png" />
+    <Image Include="Models\Dojo\udr_glass_spm.png" />
+    <Image Include="Models\Dojo\udr_marumado_alb.png" />
+    <Image Include="Models\Dojo\udr_marumado_nrm.png" />
+    <Image Include="Models\Dojo\udr_marumado_spm.png" />
+    <Image Include="Models\Dojo\udr_rock01_alb.png" />
+    <Image Include="Models\Dojo\udr_rock01_nrm.png" />
+    <Image Include="Models\Dojo\udr_rock01_spm.png" />
+    <Image Include="Models\Dojo\udr_startgate_alb.png" />
+    <Image Include="Models\Dojo\udr_startgate_nrm.png" />
+    <Image Include="Models\Dojo\udr_startgate_spm.png" />
+    <Image Include="Models\Dojo\udr_tenjyo_alb.png" />
+    <Image Include="Models\Dojo\udr_tenjyo_nrm.png" />
+    <Image Include="Models\Dojo\udr_tenjyo_spm.png" />
+    <Image Include="Models\Dojo\udr_tourou_alb.png" />
+    <Image Include="Models\Dojo\udr_tourou_emm.png" />
+    <Image Include="Models\Dojo\udr_tourou_nrm.png" />
+    <Image Include="Models\Dojo\udr_tourou_spm.png" />
+    <Image Include="Models\Dojo\udr_tyochin2_alb.png" />
+    <Image Include="Models\Dojo\udr_tyochin2_emm.png" />
+    <Image Include="Models\Dojo\udr_tyochin_alb.png" />
+    <Image Include="Models\Dojo\udr_tyochin_emm.png" />
+    <Image Include="Models\Dojo\udr_tyochin_nrm.png" />
+    <Image Include="Models\Dojo\udr_tyochin_spm.png" />
+    <Image Include="Models\Dojo\uex_mc_field_enkei_alb.png" />
+    <Image Include="Models\Guardian\Guardian Image.jpg" />
+    <Image Include="Models\Guardian\Textures\Guardian Body Texture.png" />
+    <Image Include="Models\Guardian\Textures\Guardian Energy Texture.png" />
+    <Image Include="Models\Jojo\ntxr00.png" />
+    <Image Include="Models\Jojo\ntxr000.png" />
+    <Image Include="Models\Jojo\ntxr001.png" />
+    <Image Include="Models\Jojo\ntxr002.png" />
+    <Image Include="Models\Jojo\ntxr003.png" />
+    <Image Include="Models\Jojo\ntxr004.png" />
+    <Image Include="Models\Jojo\ntxr01.png" />
+    <Image Include="Models\Jojo\ntxr02.png" />
+    <Image Include="Models\Knight\antlerKnight_diffuse.png" />
+    <Image Include="Models\Knight\antlerKnight_opacity.png" />
+    <Image Include="Models\Knuckles\eyes.png" />
+    <Image Include="Models\Knuckles\Knuckles color.png" />
+    <Image Include="Models\Lady\aya_kurome_ref.png" />
+    <Image Include="Models\Lady\body_d.tga" />
+    <Image Include="Models\Lady\body_l.tga" />
+    <Image Include="Models\Lady\body_n.tga" />
+    <Image Include="Models\Lady\body_s.tga" />
+    <Image Include="Models\Lady\head_d.tga" />
+    <Image Include="Models\Lady\head_l.tga" />
+    <Image Include="Models\Lady\head_n.tga" />
+    <Image Include="Models\Lady\head_s.tga" />
+    <Image Include="Models\Lady\rifle_d.tga" />
+    <Image Include="Models\Lady\rifle_l.tga" />
+    <Image Include="Models\Lady\rifle_n.tga" />
+    <Image Include="Models\Lady\rifle_s.tga" />
+    <Image Include="Models\Lamp\light_desk_diffuse.png" />
+    <Image Include="Models\Man Ray\Image_2D_0002_0010.png" />
+    <Image Include="Models\Miku\AL注意点.jpg" />
+    <Image Include="Models\Miku\body00_MikuAp.tga" />
+    <Image Include="Models\Miku\body00_s.bmp" />
+    <Image Include="Models\Miku\body01_MikuAp.tga" />
+    <Image Include="Models\Miku\body01_s.bmp" />
+    <Image Include="Models\Miku\body02_MikuAp.tga" />
+    <Image Include="Models\Miku\face_MikuAp.tga" />
+    <Image Include="Models\Miku\hair_MikuAp.tga" />
+    <Image Include="Models\Miku\hair_s.bmp" />
+    <Image Include="Models\Miku\skin_s.bmp" />
+    <Image Include="Models\Miku\toon_defo.bmp" />
+    <Image Include="Models\Miku\toon_hair.bmp" />
+    <Image Include="Models\Miku\toon_skin.bmp" />
+    <Image Include="Models\Miku\wing_MikuAp.tga" />
+    <Image Include="Models\Miku\アペミクさんのSDEF箇所.jpg" />
+    <Image Include="Models\Pete\H_toon_2_4i.tga.png" />
+    <Image Include="Models\Pete\pakkun_3.tga.png" />
+    <Image Include="Models\Pete\pakkun_nuki3.tga.png" />
+    <Image Include="Models\Quad\wood.jpg" />
+    <Image Include="Models\Rectangle\Mobile - My Singing Monsters Dawn of Fire - The Continent.png" />
+    <Image Include="Models\Stick\ismail-inceoglu-carrotland.jpg" />
+    <Image Include="Models\TGS_Remila\Chara_Rml_00_Alb.png" />
+    <Image Include="Models\TGS_Remila\Chara_Rml_01_Alb.png" />
+    <Image Include="Models\Waluigi\waluigi_all_alb.png" />
+    <Image Include="Models\Waluigi\walu_eyeball_l.png" />
+    <Image Include="Models\Waluigi\walu_eyeball_r.png" />
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g01_b00_f00.png" />
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g01_b00_f01.png" />
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g01_b00_f02.png" />
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g01_b01_f00.png" />
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g01_b01_f01.png" />
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g01_b01_f02.png" />
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g02_b00_f00.png" />
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g02_b01_f00.png" />
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g03_b00_f00.png" />
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g03_b01_f00.png" />
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g04_b00_f00.png" />
+    <Image Include="Models\Wuhu Town\bake_b3ds_wuhutown_g04_b01_f00.png" />
+    <Image Include="Models\Wuhu Town\bwt_flagropebg_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_flagropebg_trm.png" />
+    <Image Include="Models\Wuhu Town\bwt_flagropegc_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_flagropegc_trm.png" />
+    <Image Include="Models\Wuhu Town\bwt_flagropery_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_flagropery_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_flagropery_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_flagropery_trm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_cliff01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_cliff01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_enkei01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_enkei01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_enkei01_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_fountainbrick01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_fountainbrick01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_fountainbrick01_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_grass01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_grass01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_mud01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_mud01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_mud01_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadbrick04_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadbrick04_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadbrick04_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadbrickcircle01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadbrickcircle01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadbrickcircle01_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircle01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircle01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircle01_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircle02_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircle02_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircle02_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclee01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclee01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclee01_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclen01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclen01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclen01_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircles01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircles01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcircles01_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclew01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclew01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadcirclew01_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadside01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadside01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadside01_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_roadsoil01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_sand01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_sand01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_treekakiwari01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_wallbrick01_alb.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_wallbrick01_nrm.png" />
+    <Image Include="Models\Wuhu Town\bwt_hm_wallbrick01_spm.png" />
+    <Image Include="Models\Wuhu Town\bwt_roofblue01_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_asphalt01_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_asphalt01_nrm.png" />
+    <Image Include="Models\Wuhu Town\ct_asphalt01_spm.png" />
+    <Image Include="Models\Wuhu Town\ct_hroof01_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_hroof01_nrm.png" />
+    <Image Include="Models\Wuhu Town\ct_hroof01_spm.png" />
+    <Image Include="Models\Wuhu Town\ct_hroof02_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_hroof03_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_hroof06_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_hroof07_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_hwood02_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_hwood02_nrm.png" />
+    <Image Include="Models\Wuhu Town\ct_hwood02_spm.png" />
+    <Image Include="Models\Wuhu Town\ct_hwood03_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_hwood03_nrm.png" />
+    <Image Include="Models\Wuhu Town\ct_hwood03_spm.png" />
+    <Image Include="Models\Wuhu Town\ct_hwood07_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_hwood08_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_landscape01_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_road03_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_slight01_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_slight01_nrm.png" />
+    <Image Include="Models\Wuhu Town\ct_slight01_spm.png" />
+    <Image Include="Models\Wuhu Town\ct_swall05_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_swall05_nrm.png" />
+    <Image Include="Models\Wuhu Town\ct_swall05_spm.png" />
+    <Image Include="Models\Wuhu Town\ct_wood03_alb.png" />
+    <Image Include="Models\Wuhu Town\ct_wood03_nrm.png" />
+    <Image Include="Models\Wuhu Town\ct_wood03_spm.png" />
+    <Image Include="Models\Wuhu Town\ef_sea04_alb.png" />
+    <Image Include="Models\Wuhu Town\ef_sea04_nrm.png" />
+    <Image Include="Models\Wuhu Town\ef_sea04_spm.png" />
+    <Image Include="Models\Wuhu Town\ef_waterfall02_alb.png" />
+    <Image Include="Models\Wuhu Town\ef_waterfall02_nrm.png" />
+    <Image Include="Models\Wuhu Town\gcbp_ry_flowers01_alb.png" />
+    <Image Include="Models\Wuhu Town\gcbp_ry_flowers01_nrm.png" />
+    <Image Include="Models\Wuhu Town\gcbp_ry_flowers01_spm.png" />
+    <Image Include="Models\Wuhu Town\planta_01_alb.png" />
+    <Image Include="Models\Wuhu Town\planta_01_nrm.png" />
+    <Image Include="Models\Wuhu Town\planta_01_spm.png" />
+    <Image Include="Models\Wuhu Town\test_grass_color_alb.png" />
+    <Image Include="Models\Wuhu Town\treesph_bark_alb.png" />
+    <Image Include="Models\Wuhu Town\treesph_bark_nrm.png" />
+    <Image Include="Models\Wuhu Town\treesph_bark_spm.png" />
+    <Image Include="Models\Wuhu Town\treesph_leafbase_alb.png" />
+    <Image Include="Models\Wuhu Town\treesph_leafbase_spm.png" />
+    <Image Include="Models\Wuhu Town\treesph_leaf_alb.png" />
+    <Image Include="Models\Wuhu Town\treesph_leaf_spm.png" />
+    <Image Include="Models\Wuhu Town\treetri_bark_alb.png" />
+    <Image Include="Models\Wuhu Town\treetri_leaf_alb.png" />
+    <Image Include="Models\Wuhu Town\wta_mountain_alb.png" />
+    <Image Include="Models\Wuhu Town\wta_mountain_nrm.png" />
+    <Image Include="Models\Wuhu Town\wta_pleasureboat_alb.png" />
+    <Image Include="Models\Wuhu Town\wta_pleasureboat_emm.png" />
+    <Image Include="Models\Wuhu Town\wta_pleasureboat_nrm.png" />
+    <Image Include="Models\Wuhu Town\wta_pleasureboat_spm.png" />
+    <Image Include="Models\Wuhu Town\wta_shiphull_alb.png" />
+    <Image Include="Models\Wuhu Town\wta_shiphull_nrm.png" />
+    <Image Include="Models\Wuhu Town\wta_shiphull_spm.png" />
+    <Image Include="Models\Wuhu Town\wta_shiprepeat_alb.png" />
+    <Image Include="Models\Wuhu Town\wta_shiprepeat_nrm.png" />
+    <Image Include="Models\Wuhu Town\wta_shiprepeat_spm.png" />
+    <Image Include="Models\Wuhu Town\wta_yachtharborfloat_alb.png" />
+    <Image Include="Models\Wuhu Town\wta_yachtharborfloat_nrm.png" />
+    <Image Include="Models\Wuhu Town\wta_yachtharborfloat_spm.png" />
+    <Image Include="Models\Wuhu Town\wta_yachttexat_alb.png" />
+    <Image Include="Models\Wuhu Town\wta_yachttexat_thm.png" />
+    <Image Include="Models\Wuhu Town\wta_yachttexsn_nrm.png" />
+    <Image Include="Models\Wuhu Town\wta_yachttexsn_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_bellarch_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_bellarch_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_bellarch_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_car_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_car_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_car_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_clockdoor_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_clockdoor_emm.png" />
+    <Image Include="Models\Wuhu Town\wto_clockdoor_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_clockdoor_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_clockparts_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_clockparts_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_clockparts_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_dodai00_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_dodai00_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_dodai01_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_dodai01_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_dodai01_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_fence_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_fence_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_fence_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_handrail_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_handrail_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_handrail_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_house_windowdoor_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_house_windowdoor_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_house_windowdoor_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_leaf_flower_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_leaf_flower_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_leaf_ivy_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_leaf_ivy_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_metal_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_metal_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_metal_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_mortarwall01_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_mortarwall02_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_mortarwall03_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_shoprepeata_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_shoprepeata_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_shoprepeata_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_shop_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_signboard01_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_signboard01_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_signboard01_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_signboard01_trm.png" />
+    <Image Include="Models\Wuhu Town\wto_swall_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_swall_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_swall_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_tapestry_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_tapestry_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_tapestry_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_tapestry_trm.png" />
+    <Image Include="Models\Wuhu Town\wto_tents_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_tents_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_tents_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_wallbrick02_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_wallbrick02_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_wallbrick02_spm.png" />
+    <Image Include="Models\Wuhu Town\wto_whiteblock_alb.png" />
+    <Image Include="Models\Wuhu Town\wto_whiteblock_nrm.png" />
+    <Image Include="Models\Wuhu Town\wto_whiteblock_spm.png" />
+    <Image Include="Models\Wuhu Town\wts_basketcourt_alb.png" />
+    <Image Include="Models\Wuhu Town\wts_basketcourt_nrm.png" />
+    <Image Include="Models\Wuhu Town\wts_basketcourt_spm.png" />
+    <Image Include="Models\Wuhu Town\wts_basketgoal_alb.png" />
+    <Image Include="Models\Wuhu Town\wts_basketgoal_nrm.png" />
+    <Image Include="Models\Wuhu Town\wts_basketgoal_spm.png" />
+    <Image Include="Models\Wuhu Town\wts_block_alb.png" />
+    <Image Include="Models\Wuhu Town\wts_block_nrm.png" />
+    <Image Include="Models\Wuhu Town\wts_block_spm.png" />
+    <Image Include="Models\Wuhu Town\wts_bowling_alb.png" />
+    <Image Include="Models\Wuhu Town\wts_bowling_emm.png" />
+    <Image Include="Models\Wuhu Town\wts_bowling_glas_alb.png" />
+    <Image Include="Models\Wuhu Town\wts_bowling_glas_nrm.png" />
+    <Image Include="Models\Wuhu Town\wts_bowling_glas_spm.png" />
+    <Image Include="Models\Wuhu Town\wts_bowling_kanban_alb.png" />
+    <Image Include="Models\Wuhu Town\wts_bowling_kanban_emm.png" />
+    <Image Include="Models\Wuhu Town\wts_bowling_kanban_nrm.png" />
+    <Image Include="Models\Wuhu Town\wts_bowling_kanban_spm.png" />
+    <Image Include="Models\Wuhu Town\wts_bowling_naka_emm.png" />
+    <Image Include="Models\Wuhu Town\wts_bowling_nrm.png" />
+    <Image Include="Models\Wuhu Town\wts_bowling_spm.png" />
+    <Image Include="Models\Wuhu Town\wts_bridge_alb.png" />
+    <Image Include="Models\Wuhu Town\wts_bridge_fence_alb.png" />
+    <Image Include="Models\Wuhu Town\wts_bridge_nrm.png" />
+    <Image Include="Models\Wuhu Town\wts_bridge_spm.png" />
+    <Image Include="Models\Wuhu Town\wts_fence_alb.png" />
+    <Image Include="Models\Wuhu Town\wts_fence_nrm.png" />
+    <Image Include="Models\Wuhu Town\wts_fence_spm.png" />
+    <Image Include="Models\Wuhu Town\wts_lighthouse_alb.png" />
+    <Image Include="Models\Wuhu Town\wts_lighthouse_nrm.png" />
+    <Image Include="Models\Wuhu Town\wts_lighthouse_spm.png" />
+    <Image Include="Models\Wuhu Town\wts_vender_alb.png" />
+    <Image Include="Models\Wuhu Town\wts_vender_clearparts_alb.png" />
+    <Image Include="Models\Wuhu Town\wts_vender_clearparts_spm.png" />
+    <Image Include="Models\Wuhu Town\wts_vender_emm.png" />
+    <Image Include="Models\Wuhu Town\wts_vender_nrm.png" />
+    <Image Include="Models\Wuhu Town\wts_vender_spm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Models\Guardian\Guardian.obj">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Models\Jojo\Giorno Giovanna.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="Models\Lamp\light_desk.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="Models\Wuhu Town\WuhuTown.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Object>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
