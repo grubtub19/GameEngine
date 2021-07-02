@@ -2,9 +2,9 @@
 
 A graphics and game engine written in C++ using OpenGL (GLFW/GLAD) featuring skeletal animation and an entity-component system.
 
-## Video (click the picture)
+## Video
 
-[![Youtube Video](https://i.imgur.com/64DItm3.png)](https://www.youtube.com/watch?v=WQy98Tkl2Cc)
+https://user-images.githubusercontent.com/35621581/124287103-8aa28600-db47-11eb-8516-4969f97fb69c.mp4
 
 ## Features
 * Skeletal animation w/ playback controls
