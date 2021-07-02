@@ -64,7 +64,7 @@ void SceneManager::updateLight() {
 }
 
 void SceneManager::init() {
-	Scene level1 = Scene("nowuhu.json");
+	Scene level1 = Scene("final.json");
 	addScene("Level1", level1);
 	scenes_by_name.at("Level1")->load();
 }

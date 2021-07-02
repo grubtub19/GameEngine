@@ -1,5 +1,6 @@
 #version 430
 
+in float distance;
 in vec3 varyingVertPos;
 in vec3 varyingLightDir;
 in vec3 varyingNormal;
@@ -32,6 +33,9 @@ struct PositionalLight
     vec4 diffuse;
     vec4 specular;
     vec3 position;
+	float constant_att;
+	float linear_att;
+	float quad_att;
 };
 uniform PositionalLight light;
 
@@ -53,8 +57,11 @@ void main(void)
 	vec3 diffuse = light.diffuse.xyz * material.diffuse * max(cosTheta, 0.0);
 	vec3 specular = light.specular.xyz * material.specular * pow(max(cosPhi, 0.0), material.shininess * 3);
 
+	float att = 1 / (light.constant_att + light.linear_att * distance + light.quad_att * distance * distance);
+
 	//if(has_diffuse) {
-		fragColor = texture_color * vec4((ambient + diffuse + specular), 1.0);
+		//fragColor = texture_color * vec4((ambient + (diffuse + specular) * clamp(att, 0.0, 1.0)), texture_color.a);
+		fragColor = texture_color * vec4(ambient + (diffuse + specular) * clamp(att, 0.0, 1.0), texture_color.a);
 	//} else {
 	//	fragColor = vec4((ambient + diffuse + specular), 1.0);
 	//}

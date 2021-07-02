@@ -1,14 +1,42 @@
-c:\users\peter\source\repos\project3\project3\x64\debug\vc142.pdb
-c:\users\peter\source\repos\project3\project3\x64\debug\vc142.idb
-c:\users\peter\source\repos\project3\project3\x64\debug\shader.obj
-c:\users\peter\source\repos\project3\project3\x64\debug\skeleton.obj
-c:\users\peter\source\repos\project3\project3\x64\debug\skeletalanimation.obj
-c:\users\peter\source\repos\project3\project3\x64\debug\animationcontroller.obj
-c:\users\peter\source\repos\project3\project3\x64\debug\lightmanager.obj
-c:\users\peter\source\repos\project3\project3\x64\debug\data.obj
-c:\users\peter\source\repos\project3\project3\x64\debug\timemanager.obj
-c:\users\peter\source\repos\project3\project3\x64\debug\globalambientlight.obj
-c:\users\peter\source\repos\project3\project3\x64\debug\mtx.obj
-c:\users\peter\source\repos\project3\project3\x64\debug\opengl g.0d178a1e.tlog\cl.command.1.tlog
-c:\users\peter\source\repos\project3\project3\x64\debug\opengl g.0d178a1e.tlog\cl.read.1.tlog
-c:\users\peter\source\repos\project3\project3\x64\debug\opengl g.0d178a1e.tlog\cl.write.1.tlog
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\vc142.pdb
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\vc142.idb
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\camera.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\shader.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\glfwmanager.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\logger.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\source.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\skinnedmeshrenderer.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\skeleton.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\skeletalanimation.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\scenemanager.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\scene.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\animationcontroller.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\meshrenderer.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\mesh.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\lightmanager.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\inputmanager.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\gameobject.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\data.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\datamanager.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\component.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\bones.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\engine.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\transform.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\timemanager.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\globalambientlight.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\modelimporter.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\game.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\mtx.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\glad.obj
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\bones.obj.enc
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\modelimporter.obj.enc
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\opengl game engine.ilk
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\opengl game engine.pdb
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\opengl game engine.exe
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\opengl game engine.ilk
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\opengl g.0d178a1e.tlog\cl.command.1.tlog
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\opengl g.0d178a1e.tlog\cl.read.1.tlog
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\opengl g.0d178a1e.tlog\cl.write.1.tlog
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\opengl g.0d178a1e.tlog\link.command.1.tlog
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\opengl g.0d178a1e.tlog\link.read.1.tlog
+c:\files\docs\school\game engine design\game engine repo\gameengine\project3\x64\debug\opengl g.0d178a1e.tlog\link.write.1.tlog

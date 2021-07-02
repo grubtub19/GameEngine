@@ -1,5 +1,12 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(411,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Project3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  GLFWManager.cpp
-  InputManager.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Project3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  GlobalAmbientLight.cpp
+D:\Files\Docs\School\Game Engine Design\Game Engine Repo\GameEngine\Project3\data.h(58,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+  LightManager.cpp
+D:\Files\Docs\School\Game Engine Design\Game Engine Repo\GameEngine\Project3\data.h(58,19): warning C4305: 'initializing': truncation from 'double' to 'float'
   Generating Code...
-  Project3.vcxproj -> C:\Users\Peter\source\repos\Project3\Project3\OpenGL Game Engine.exe
+glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(input.obj)' or at 'D:\Files\Docs\School\Game Engine Design\Game Engine Repo\GameEngine\Project3\glfw.pdb'; linking object as if no debug info
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'D:\Files\Docs\School\Game Engine Design\Game Engine Repo\GameEngine\Project3\glfw.pdb'; linking object as if no debug info
+glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(window.obj)' or at 'D:\Files\Docs\School\Game Engine Design\Game Engine Repo\GameEngine\Project3\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'D:\Files\Docs\School\Game Engine Design\Game Engine Repo\GameEngine\Project3\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'D:\Files\Docs\School\Game Engine Design\Game Engine Repo\GameEngine\Project3\glfw.pdb'; linking object as if no debug info
+  Project3.vcxproj -> D:\Files\Docs\School\Game Engine Design\Game Engine Repo\GameEngine\Project3\OpenGL Game Engine.exe

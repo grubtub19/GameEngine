@@ -11,7 +11,6 @@ public:
 	std::vector<GameObject*> root_game_objects;
 	GameObject* main_camera;
 	GameObject* light;
-	LightValues light_values;
 
 private:
 	std::unordered_map<const char*, Scene*> scenes_by_name;

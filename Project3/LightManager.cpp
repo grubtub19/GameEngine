@@ -6,7 +6,7 @@
 bool LightManager::instantiated = false;
 
 LightManager::LightManager() :
-	ambient_light(GlobalAmbientLight(0.1f, 0.1f, 0.1f, 1.0f))
+	ambient_light(GlobalAmbientLight(0.5f, 0.4f, 0.4f, 1.0f))
 {
 	assert(!instantiated);
 	instantiated = true;

@@ -14,7 +14,8 @@ DataManager::DataManager()  :
 		PoolAllocator<Shader>(2),
 		PoolAllocator<MeshRenderer>(20),
 		PoolAllocator<SkinnedMeshRenderer>(20),
-		PoolAllocator<AnimationController>(4)))
+		PoolAllocator<AnimationController>(4),
+		PoolAllocator<Light>(1)))
 {
 	Logger::log("DataManager Loaded");
 }

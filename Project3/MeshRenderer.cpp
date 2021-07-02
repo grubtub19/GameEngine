@@ -5,6 +5,7 @@
 #include "Transform.h"
 #include "Camera.h"
 #include "Mesh.h"
+#include "Light.h"
 
 Shader* MeshRenderer::shader = nullptr;
 
@@ -105,12 +106,16 @@ void MeshRenderer::draw() {
 	shader->setUniform3fv("material.ambient", mesh->material->ambient);
 	shader->setUniform1f("material.shininess", mesh->material->shininess);
 
-	LightValues& light_values = Game::get().scene_manager.light_values;
+	Light* light = Game::get().scene_manager.light->getLightComponent();
 
-	shader->setUniform4fv("light.diffuse", light_values.diffuse);
-	shader->setUniform4fv("light.specular", light_values.specular);
-	shader->setUniform4fv("light.ambient", light_values.ambient);
+	shader->setUniform4fv("light.diffuse", light->diffuse);
+	shader->setUniform4fv("light.specular", light->specular);
+	shader->setUniform4fv("light.ambient", light->ambient);
 	shader->setUniform3fv("light.position", Game::get().scene_manager.light->getTransformComponent()->position.data_ptr());
+	shader->setUniform1f("light.constant_att", light->constant_att);
+	shader->setUniform1f("light.linear_att", light->linear_att);
+	shader->setUniform1f("light.quad_att", light->quad_att);
+	shader->setUniform1f("light.shininess", light->shininess);
 
 	if (mesh->material->diffuse_map != nullptr) {
 		//Logger::log("Enabling Diffuse: GL_TEXTURE0: " + std::to_string(model.textures.at(material.diffuse_path).id));
@@ -162,7 +167,7 @@ void MeshRenderer::draw() {
 	shader->setUniformMatrix4fv("v_matrix", camera->getViewMatrix(), true);
 	shader->setUniformMatrix4fv("m_matrix", transform->global_transformation_matrix, true);
 	
-	mtx::Matrix4 norm_matrix = transform->global_transformation_matrix * Game::get().scene_manager.main_camera->getCameraComponent()->getViewMatrix();
+	mtx::Matrix4 norm_matrix = camera->getViewMatrix() * transform->global_transformation_matrix;
 	norm_matrix.invert().transpose();
 	shader->setUniformMatrix4fv("norm_matrix", norm_matrix, true);
 	

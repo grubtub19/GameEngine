@@ -12,6 +12,7 @@
 #include "AnimationController.h"
 #include "MeshRenderer.h"
 #include "SkinnedMeshRenderer.h"
+#include "Light.h"
 
 class GameObject {
 public:
@@ -33,6 +34,7 @@ private:
 	AnimationController* animation_controller;
 	MeshRenderer* mesh_renderer;
 	SkinnedMeshRenderer* skinned_mesh_renderer;
+	Light* light;
 
 
 public:
@@ -49,6 +51,7 @@ public:
 	void removeAnimationControllerComponent();
 	void removeMeshRendererComponent();
 	void removeSkinnedMeshRendererComponent();
+	void removeLightComponent();
 	
 	Transform* addTransformComponent();
 	Mesh* addMeshComponent();
@@ -58,6 +61,7 @@ public:
 	AnimationController* addAnimationControllerComponent();
 	MeshRenderer* addMeshRendererComponent();
 	SkinnedMeshRenderer* addSkinnedMeshRendererComponent();
+	Light* addLightComponent();
 
 	Transform* addTransformComponent(const Transform& transform);
 	Mesh* addMeshComponent(const Mesh& mesh);
@@ -67,6 +71,7 @@ public:
 	AnimationController* addAnimationControllerComponent(const AnimationController& animation_controller);
 	MeshRenderer* addMeshRendererComponent(const MeshRenderer& mesh_renderer);
 	SkinnedMeshRenderer* addSkinnedMeshRendererComponent(const SkinnedMeshRenderer& skinned_mesh_renderer);
+	Light* addLightComponent(const Light& light);
 
 	Transform* getTransformComponent();
 	Mesh* getMeshComponent();
@@ -76,6 +81,7 @@ public:
 	AnimationController* getAnimationControllerComponent();
 	MeshRenderer* getMeshRendererComponent();
 	SkinnedMeshRenderer* getSkinnedMeshRendererComponent();
+	Light* getLightComponent();
 
 	void update();
 };

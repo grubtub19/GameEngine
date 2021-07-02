@@ -24,6 +24,7 @@ class Shader;
 class MeshRenderer;
 class SkinnedMeshRenderer;
 class AnimationController;
+class Light;
 
 
 class DataManager {
@@ -43,7 +44,8 @@ public:
 		PoolAllocator<Shader>,
 		PoolAllocator<MeshRenderer>,
 		PoolAllocator<SkinnedMeshRenderer>,
-		PoolAllocator<AnimationController>> pools;
+		PoolAllocator<AnimationController>,
+		PoolAllocator<Light>> pools;
 
 	template <typename T>
 	T* addData(const T& thing) {

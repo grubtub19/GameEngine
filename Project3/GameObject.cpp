@@ -19,6 +19,7 @@ GameObject::GameObject() :
 	animation_controller(nullptr),
 	mesh_renderer(nullptr),
 	skinned_mesh_renderer(nullptr),
+	light(nullptr),
 	destroy_on_load(true)
 {
 
@@ -34,6 +35,7 @@ GameObject::GameObject(GameObject* parent) :
 	animation_controller(nullptr),
 	mesh_renderer(nullptr),
 	skinned_mesh_renderer(nullptr),
+	light(nullptr),
 	destroy_on_load(true)
 {
 
@@ -78,6 +80,7 @@ void GameObject::removeAllComponents()
 	if (animation_controller != nullptr) removeAnimationControllerComponent();
 	if (mesh_renderer != nullptr) removeMeshRendererComponent();
 	if (skinned_mesh_renderer != nullptr) removeSkinnedMeshRendererComponent();
+	if (light != nullptr) removeLightComponent();
 }
 
 void GameObject::addChild(GameObject* child) {
@@ -136,6 +139,12 @@ void GameObject::removeSkinnedMeshRendererComponent() {
 	}
 	skinned_mesh_renderer = nullptr;	//remove from this object's map of Components
 }
+void GameObject::removeLightComponent() {
+	if (light->removeContainer(this)) {	//remove this object from the Component's list of containers
+		Game::get().data_manager.remove(light);	//if the Component has no more containers delete it
+	}
+	light = nullptr;	//remove from this object's map of Components
+}
 
 
 Transform* GameObject::addTransformComponent() {
@@ -177,6 +186,11 @@ SkinnedMeshRenderer* GameObject::addSkinnedMeshRendererComponent() {
 	skinned_mesh_renderer = Game::get().data_manager.addData(SkinnedMeshRenderer());	//Create the component in the DataManager
 	skinned_mesh_renderer->containers.push_back(this);	//add this object to the component's list of containers
 	return skinned_mesh_renderer;
+}
+Light* GameObject::addLightComponent() {
+	light = Game::get().data_manager.addData(Light());	//Create the component in the DataManager
+	light->containers.push_back(this);	//add this object to the component's list of containers
+	return light;
 }
 
 
@@ -220,6 +234,11 @@ SkinnedMeshRenderer* GameObject::addSkinnedMeshRendererComponent(const SkinnedMe
 	this->skinned_mesh_renderer->containers.push_back(this);	//add this object to the component's list of containers
 	return this->skinned_mesh_renderer;
 }
+Light* GameObject::addLightComponent(const Light& light) {
+	this->light = Game::get().data_manager.addData(light);	//Create the component in the DataManager
+	this->light->containers.push_back(this);	//add this object to the component's list of containers
+	return this->light;
+}
 
 Transform* GameObject::getTransformComponent() {
 	return transform;
@@ -246,6 +265,9 @@ MeshRenderer* GameObject::getMeshRendererComponent() {
 SkinnedMeshRenderer* GameObject::getSkinnedMeshRendererComponent() {
 	return skinned_mesh_renderer;
 }
+Light* GameObject::getLightComponent() {
+	return light;
+}
 
 void GameObject::update() {
 	//DEBUG START
@@ -259,6 +281,7 @@ void GameObject::update() {
 	if (skeleton != nullptr) skeleton->update();
 	if (mesh_renderer != nullptr) mesh_renderer->update();
 	if (skinned_mesh_renderer != nullptr) skinned_mesh_renderer->update();
+	if (light != nullptr) light->update();
 	//DEBUG START
 	if (Game::get().is_debug_mode) Logger::log(directory_and_name + " finished updating");
 	//DEBUG END

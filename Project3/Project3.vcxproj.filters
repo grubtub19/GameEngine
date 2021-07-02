@@ -171,6 +171,9 @@
     <ClCompile Include="Skeleton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Logger.h">
@@ -254,6 +257,9 @@
     <ClInclude Include="AnimationController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Models\TGS_Remila\TGS_Remila.dae">
@@ -305,9 +311,6 @@
       <Filter>Shaders</Filter>
     </None>
     <None Include="Scenes\level1.json">
-      <Filter>Scenes</Filter>
-    </None>
-    <None Include="Scenes\nowuhu.json">
       <Filter>Scenes</Filter>
     </None>
     <None Include="Models\Cube\Companion_ascii.fbx">
@@ -381,6 +384,12 @@
     </None>
     <None Include="Models\Lamp\light_desk.mtl">
       <Filter>Models\Lamp</Filter>
+    </None>
+    <None Include="Scenes\final.json">
+      <Filter>Scenes</Filter>
+    </None>
+    <None Include="Scenes\nowuhu.json">
+      <Filter>Scenes</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

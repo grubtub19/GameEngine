@@ -104,7 +104,6 @@ void Scene::parseCamera(const rapidjson::Document& document) const {
 	Transform* transform = object->addTransformComponent();
 	Game::get().scene_manager.main_camera = object;
 	Camera* camera_object = object->addCameraComponent();
-	camera_object->transform = transform;
 	assert(camera.IsObject());
 	assert(camera.HasMember("fov_y"));
 	assert(camera["fov_y"].IsFloat());
@@ -135,6 +134,7 @@ void Scene::parseLight(const rapidjson::Document& document) const {
 	const rapidjson::Value& light = document["light"];
 	GameObject* object;
 	Transform* transform;
+
 	if (light.HasMember("model")) {
 		ModelImporter importer = ModelImporter();
 		object = importer.loadModel(light["model"].GetString());
@@ -143,8 +143,10 @@ void Scene::parseLight(const rapidjson::Document& document) const {
 	else {
 		object = Game::get().data_manager.addData(GameObject());
 		transform = object->addTransformComponent();
-	}	
-	
+	}
+
+	Light* light_component = object->addLightComponent();
+
 	Game::get().scene_manager.light = object;
 	assert(light.IsObject());
 	if (light.HasMember("translate")) {
@@ -162,5 +164,57 @@ void Scene::parseLight(const rapidjson::Document& document) const {
 		const rapidjson::Value& scale = light["scale"];
 		float scale_value = scale.GetFloat();
 		transform->scaler = mtx::Vec3(scale_value, scale_value, scale_value);
+	}
+	if (light.HasMember("ambient")) {
+		assert(light["ambient"].IsArray());
+		assert(light["ambient"].Size() == 4);
+		assert(light["ambient"][0].IsFloat());
+		light_component->ambient[0] = light["ambient"][0].GetFloat();
+		assert(light["ambient"][1].IsFloat());
+		light_component->ambient[1] = light["ambient"][1].GetFloat();
+		assert(light["ambient"][2].IsFloat());
+		light_component->ambient[2] = light["ambient"][2].GetFloat();
+		assert(light["ambient"][3].IsFloat());
+		light_component->ambient[3] = light["ambient"][3].GetFloat();
+	}
+	if (light.HasMember("specular")) {
+		assert(light["specular"].IsArray());
+		assert(light["specular"].Size() == 4);
+		assert(light["specular"][0].IsFloat());
+		light_component->specular[0] = light["specular"][0].GetFloat();
+		assert(light["specular"][1].IsFloat());
+		light_component->specular[1] = light["specular"][1].GetFloat();
+		assert(light["specular"][2].IsFloat());
+		light_component->specular[2] = light["specular"][2].GetFloat();
+		assert(light["specular"][3].IsFloat());
+		light_component->specular[3] = light["specular"][3].GetFloat();
+	}
+	if (light.HasMember("diffuse")) {
+		assert(light["diffuse"].IsArray());
+		assert(light["diffuse"].Size() == 4);
+		assert(light["diffuse"][0].IsFloat());
+		light_component->diffuse[0] = light["diffuse"][0].GetFloat();
+		assert(light["diffuse"][1].IsFloat());
+		light_component->diffuse[1] = light["diffuse"][1].GetFloat();
+		assert(light["diffuse"][2].IsFloat());
+		light_component->diffuse[2] = light["diffuse"][2].GetFloat();
+		assert(light["diffuse"][3].IsFloat());
+		light_component->diffuse[3] = light["diffuse"][3].GetFloat();
+	}
+	if (light.HasMember("constant_att")) {
+		assert(light["constant_att"].IsFloat());
+		light_component->constant_att = light["constant_att"].GetFloat();
+	}
+	if (light.HasMember("linear_att")) {
+		assert(light["linear_att"].IsFloat());
+		light_component->linear_att = light["linear_att"].GetFloat();
+	}
+	if (light.HasMember("quad_att")) {
+		assert(light["quad_att"].IsFloat());
+		light_component->quad_att = light["quad_att"].GetFloat();
+	}
+	if (light.HasMember("shininess")) {
+		assert(light["shininess"].IsFloat());
+		light_component->shininess = light["shininess"].GetFloat();
 	}
 }

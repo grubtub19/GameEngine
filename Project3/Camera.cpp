@@ -12,8 +12,7 @@ Camera::Camera() :
 	sensitivity_pitch(0.1f),
 	sensitivity_roll(100.0f),
 	sensitivity_move(10.0f),
-	yaw(0), pitch(0), roll(0),
-	transform(nullptr)
+	yaw(0), pitch(0), roll(0)
 {
 
 }
@@ -24,14 +23,17 @@ Camera::Camera(float const &fov_y, float const &aspect, float const &near_plane,
 	sensitivity_pitch(1.0f),
 	sensitivity_roll(100.0f),
 	sensitivity_move(10.0f),
-	yaw(0), pitch(0), roll(0),
-	transform(nullptr)
+	yaw(0), pitch(0), roll(0)
 {
 	initProjectionMatrix(fov_y, aspect, near_plane, far_plane);
 }
 
 Camera::~Camera() {
 
+}
+
+Transform* Camera::getTransform() {
+	return containers.at(0)->getTransformComponent();
 }
 
 //TODO Make this [][]
@@ -51,8 +53,8 @@ void Camera::initProjectionMatrix(float const &fov_y, float const &aspect, float
 
 
 mtx::Matrix4 Camera::getViewMatrix() {
-	view_matrix.make_translation(-transform->position);
-	view_matrix.rotate(transform->rotation.inverse());
+	view_matrix.make_translation(-getTransform()->position);
+	view_matrix.rotate(getTransform()->rotation.inverse());
 	return view_matrix;
 }
 
@@ -79,8 +81,8 @@ void Camera::updateRotation() {
 	mtx::Quaternion roll_quaternion = mtx::Quaternion();
 	roll_quaternion.make_rotation(mtx::Vec3(0.0f, 0.0f, 1.0f), roll); //rotate pitch based this new facing direction
 	//Logger::log("Roll: " + std::to_string(roll) + ", Roll Quaternion: " + roll_quaternion.to_string());
-	transform->rotation *= yaw_quaternion * pitch_quaternion * roll_quaternion;
-	transform->rotation.normalize();
+	getTransform()->rotation *= yaw_quaternion * pitch_quaternion * roll_quaternion;
+	getTransform()->rotation.normalize();
 	//Logger::log("Camera rotation: " + transform->rotation.to_string());
 }
 
@@ -92,23 +94,23 @@ void Camera::update() {
 	float time_elapsed = Game::get().time_manager.time_elapsed;
 
 	if (Game::get().input_manager.keys.at("forward").is_down) {
-		transform->translateLocal(0.0f, 0.0f, -sensitivity_move * time_elapsed);
+		getTransform()->translateLocal(0.0f, 0.0f, -sensitivity_move * time_elapsed);
 		//Logger::log("Forward: " + transform->getForwardVec().to_string());
 	}
 	if (Game::get().input_manager.keys.at("backward").is_down) {
-		transform->translateLocal(0.0f, 0.0f, sensitivity_move * time_elapsed);
+		getTransform()->translateLocal(0.0f, 0.0f, sensitivity_move * time_elapsed);
 	}
 	if (Game::get().input_manager.keys.at("right").is_down) {
-		transform->translateLocal(sensitivity_move * time_elapsed, 0.0f, 0.0f);
+		getTransform()->translateLocal(sensitivity_move * time_elapsed, 0.0f, 0.0f);
 	}
 	if (Game::get().input_manager.keys.at("left").is_down) {
-		transform->translateLocal(-sensitivity_move * time_elapsed, 0.0f, 0.0f);
+		getTransform()->translateLocal(-sensitivity_move * time_elapsed, 0.0f, 0.0f);
 	}
 	if (Game::get().input_manager.keys.at("up").is_down) {
-		transform->translateLocal(0.0f, sensitivity_move * time_elapsed, 0.0f);
+		getTransform()->translateLocal(0.0f, sensitivity_move * time_elapsed, 0.0f);
 	}
 	if (Game::get().input_manager.keys.at("down").is_down) {
-		transform->translateLocal(0.0f, -sensitivity_move * time_elapsed, 0.0f);
+		getTransform()->translateLocal(0.0f, -sensitivity_move * time_elapsed, 0.0f);
 	}
 	if (Game::get().input_manager.keys.at("roll_left").is_down) {
 		roll += Game::get().time_manager.time_elapsed * sensitivity_roll;

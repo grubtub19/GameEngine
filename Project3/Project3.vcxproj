@@ -149,6 +149,7 @@
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Light.cpp" />
     <ClCompile Include="LightManager.cpp" />
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="MeshRenderer.cpp" />
@@ -180,6 +181,7 @@
     <ClInclude Include="GlobalAmbientLight.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="Component.h" />
+    <ClInclude Include="Light.h" />
     <ClInclude Include="MeshRenderer.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
@@ -235,6 +237,7 @@
     <None Include="Models\Waluigi\waluigi.pmx" />
     <None Include="Models\Wuhu Town\WuhuTown.FBX" />
     <None Include="Models\Wuhu Town\WuhuTown.mtl" />
+    <None Include="Scenes\final.json" />
     <None Include="Scenes\level1.json" />
     <None Include="Scenes\nowuhu.json" />
     <None Include="Shaders\default.frag" />

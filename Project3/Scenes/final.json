@@ -1,0 +1,108 @@
+{
+    "gameObjects": [
+        {
+            "model": "Models/Wuhu Town/WuhuTown.FBX",
+            "scale": 0.01,
+            "rotate": {
+              "axis": [ 0.0, -0.7071068, 0.7071068 ],
+               "angle": 180.0
+            },
+            "destroy": true
+        },
+        {
+            "model": "Models/Knuckles/knuckles.fbx",
+            "translate": [ 0.0, 0.0, 0.0 ],
+            "rotate": {
+                "axis": [ 90.0, 0.0, 0.0 ],
+                "angle": -90.0
+            },
+            "destroy": true
+        },
+        {
+            "model": "Models/Waluigi/waluigi.fbx",
+            "translate": [ -6.0, 0.0, 4.0 ],
+          "rotate": {
+            "axis": [ 1.0, 0.0, 0.0 ],
+            "angle": -90.0
+          },
+            "destroy": true
+        },
+        {
+            "model": "Models/Miku/miku4.fbx",
+            "translate": [ 6.0, 0.0, 4.0 ],
+            "rotate": {
+                "axis": [ 90.0, 0.0, 0.0 ],
+                "angle": -90.0
+            },
+            "destroy": true
+        },
+        /*{
+            "model": "Models/Lady/Horo_V1.0_LGMODS.pmx",
+            "translate": [ -6.0, 0.0, -6.0 ],
+            "scale": 0.2,
+            "destroy": true
+        },
+        {
+            "model": "Models/Axis/axis.glb",
+            "destroy": true
+        },
+        {
+            "model": "Models/Stick/stick3.fbx",
+            "translate": [ 25.0, 2.2, 0.0 ],
+            "destroy": true
+        },
+        {
+            "model": "Models/Cube/Companion.fbx",
+            "translate": [ -25.0, 3.5, -8.0 ],
+            "destroy": true
+        },
+        {
+            "model": "Models/Quad/Quad.fbx",
+            "translate": [ -25.0, 3.0, 7.0 ],
+            "destroy": true
+        },
+        {
+            "model": "Models/Rectangle/Rectangle.fbx",
+            "translate": [ -25.0, 3.5, 0.0 ],
+            "destroy": true
+        },*/
+        {
+            "model": "Models/TGS_Remila/animated.fbx",
+            "translate": [ 0.0, -0.15, 8.0 ],
+            "rotate": {
+                "axis": [ 90.0, 0.0, 0.0 ],
+                "angle": -90.0
+            },
+            "destroy": false
+        }/*,
+        {
+            "model": "Models/Man Ray/manray.dae",
+            "scale": 0.3,
+            "translate": [ 8.0, -0.2, 1.0 ],
+            "rotate": {
+                "axis": [ 0.0, 90.0, 0.0 ],
+                "angle": 90.0
+            },
+            "destroy": true
+        }*/
+    ],
+  "camera": {
+    "fov_y": 90.0,
+    "aspect": 1.77778,
+    "near_plane": 0.1,
+    "far_plane": 1000.0,
+    "translate": [ 0.0, 0.0, 8.0 ]
+  },
+  "light": {
+    "model": "Models/Lamp/light_desk.obj",
+    "translate": [ 0.0, 0.0, 8.0 ],
+    "scale": 0.02,
+    "ambient": [ 0.0, 0.0, 0.0, 1.0 ],
+    "specular": [ 1.0, 1.0, 1.0, 0.2 ],
+    "diffuse": [ 1.0, 1.0, 1.0, 0.2 ],
+    "constant_att": 1.0,
+    "linear_att": 0.00,
+    "quad_att": 0.001,
+    "shininess": 1.0
+  }
+}

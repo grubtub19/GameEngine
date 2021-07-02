@@ -12,7 +12,8 @@ public:
 
 	mtx::Matrix4 projection_matrix;
 	mtx::Matrix4 view_matrix;
-	Transform* transform;
+
+	Transform* getTransform();
 
 	float sensitivity_yaw;
 	float sensitivity_pitch;

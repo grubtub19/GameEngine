@@ -1,0 +1,574 @@
+# Blender MTL File: 'None'
+# Material Count: 52
+
+newmtl ef_dashboard
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd ef_dashboard02_Alb.png
+map_d ef_dashboard02_Alb.png
+
+newmtl ef_glideboard
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd ef_glideboard02_Alb.png
+map_d ef_glideboard02_Alb.png
+
+newmtl ef_gravityboard
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd ef_GravityPanell_Alb2.png
+map_d ef_GravityPanell_Alb2.png
+
+newmtl luminous_mat
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd luminous_Alb.png
+map_d luminous_Alb.png
+
+newmtl m_HolographyMachine
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_holographymachine_Alb.png
+map_d urr_holographymachine_Alb.png
+
+newmtl mt_GalleryA
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd gallery_fix_Alb.0.png
+map_d gallery_fix_Alb.0.png
+
+newmtl mt_GalleryB
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd gallery_fix_Alb.0.png
+map_d gallery_fix_Alb.0.png
+
+newmtl mt_GalleryC
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd gallery_fix_Alb.0.png
+map_d gallery_fix_Alb.0.png
+
+newmtl rr_a_curbstone00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_CurbStone00_Alb.png
+map_d urr_CurbStone00_Alb.png
+
+newmtl rr_a_curbstone_colony
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_CurbStone00_Alb.png
+map_d urr_CurbStone00_Alb.png
+
+newmtl rr_a_dirt
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_sand_Alb.png
+map_d urr_sand_Alb.png
+
+newmtl rr_a_dirt_colony
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_sand_Alb.png
+map_d urr_sand_Alb.png
+
+newmtl rr_a_road
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_road00_Nrm.png
+map_d urr_road00_Nrm.png
+
+newmtl rr_a_road_G
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_road00_Nrm.png
+map_d urr_road00_Nrm.png
+
+newmtl rr_a_road_cold_G
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_road00_Alb_coldcolor.png
+map_d urr_road00_Alb_coldcolor.png
+
+newmtl rr_a_road_cross
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_crossroad02_Alb.png
+map_d urr_crossroad02_Alb.png
+
+newmtl rr_a_road_warm_G
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_road00_Alb_warmcolor.png
+map_d urr_road00_Alb_warmcolor.png
+
+newmtl rr_a_roadside
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_road07_Alb.png
+map_d urr_road07_Alb.png
+
+newmtl rr_a_roadside_G
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_road07_Alb.png
+map_d urr_road07_Alb.png
+
+newmtl rr_a_roadside_toG
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_road07_Alb.png
+map_d urr_road07_Alb.png
+
+newmtl rr_b_earth00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_earth00_Alb.png
+map_d urr_earth00_Alb.png
+
+newmtl rr_b_gardrail01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_gardrail01_Alb.png
+map_d urr_gardrail01_Alb.png
+
+newmtl rr_b_lastcorner
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_lastcorner_Alb.png
+map_d urr_lastcorner_Alb.png
+
+newmtl rr_b_lastcorner02
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_rrRoad04_Alb.png
+map_d urr_rrRoad04_Alb.png
+
+newmtl rr_b_lastcorner_GrassFloor
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd RRroad_GrassFloor_Nor.png
+map_d RRroad_GrassFloor_Nor.png
+
+newmtl rr_b_seat00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_seat00_Alb.png
+map_d urr_seat00_Alb.png
+
+newmtl rr_b_seat00.002
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_seat00_Alb.png
+map_d urr_seat00_Alb.png
+
+newmtl rr_b_seat02
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_seat02_Alb.png
+map_d urr_seat02_Alb.png
+
+newmtl rr_b_seat_glas00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd ef_DisplayWord01_Alb.png
+map_d ef_DisplayWord01_Alb.png
+
+newmtl rr_b_start00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_start00_Alb.png
+map_d urr_start00_Alb.png
+
+newmtl rr_b_start01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_start01_Alb.png
+map_d urr_start01_Alb.png
+
+newmtl rr_b_start_kanban
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd utc_startkanban_Emm.png
+map_d utc_startkanban_Emm.png
+
+newmtl rr_b_start_signboard
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_signboard00_seat_Alb.png
+map_d urr_signboard00_seat_Alb.png
+
+newmtl rr_b_startframe
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_glas03_Alb.png
+map_d urr_glas03_Alb.png
+
+newmtl rr_b_startpanel
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_startpanel_Alb.0.png
+map_d urr_startpanel_Alb.0.png
+
+newmtl rr_c_cloud
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_earth00_Alb2.png
+map_d urr_earth00_Alb2.png
+
+newmtl rr_d_spacestation00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_spacestation00_Alb.png
+map_d urr_spacestation00_Alb.png
+
+newmtl rr_d_spacestation00_space
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_spacestation00_Alb.png
+map_d urr_spacestation00_Alb.png
+
+newmtl rr_d_spacestation04
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_spacestation04_Alb.png
+map_d urr_spacestation04_Alb.png
+
+newmtl rr_d_spacestation05
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_spacestation05_Alb.png
+map_d urr_spacestation05_Alb.png
+
+newmtl rr_d_spacestation06
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_spacestation06_Alb.png
+map_d urr_spacestation06_Alb.png
+
+newmtl rr_d_spacestation07_space
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_panel01_Alb.png
+map_d urr_panel01_Alb.png
+
+newmtl rr_d_spacestation08
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_station00_Alb.png
+map_d urr_station00_Alb.png
+
+newmtl rr_lightCubeMap
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_cubemap_Emm.png
+map_d urr_cubemap_Emm.png
+
+newmtl rr_lightCubeMap1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_cubemap_Emm.png
+map_d urr_cubemap_Emm.png
+
+newmtl rr_lightCubeMap2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_earth00_Alb.png
+map_d urr_earth00_Alb.png
+
+newmtl rr_lightCubeMap4
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_cubemap2_Emm.png
+map_d urr_cubemap2_Emm.png
+
+newmtl rr_lightCubeMap4_2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_cubemap2_Emm.png
+map_d urr_cubemap2_Emm.png
+
+newmtl rr_lightCubeMap4_3
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_cubemap2_Emm.png
+map_d urr_cubemap2_Emm.png
+
+newmtl rr_lightCubeMap4_4
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_cubemap2_Emm.png
+map_d urr_cubemap2_Emm.png
+
+newmtl rr_lightCubeMap4_5
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_cubemap2_Emm.png
+map_d urr_cubemap2_Emm.png
+
+newmtl rr_lightCubeMap5
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd urr_cubemap_Emm.png
+map_d urr_cubemap_Emm.png
