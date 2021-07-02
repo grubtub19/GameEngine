@@ -2,18 +2,22 @@
 
 A graphics and game engine written in C++ using OpenGL (GLFW/GLAD) featuring skeletal animation and an entity-component system.
 
-![Imgur](https://i.imgur.com/WPyqLsf.png)
+## Video (click the picture)
+
+[![Youtube Video]([img]https://i.imgur.com/64DItm3.png[/img])](https://www.youtube.com/watch?v=beHrmCplhaQ)
 
 ## Features
 * Skeletal animation w/ playback controls
 * Model & animation loading via Assimp
-* Quaternion rotations
+* Quaternion rotations (free camera)
+* Phong Shading w/ attenuation
+* Scene loading (from file), swapping, and unloading
 * Entity-component system
 * Dynamic and iterable pool allocator
-* Custom math library (2000+ lines of code)
+* Hand-written math library (2000+ lines of code)
 * Reassignable Named Controls
 * Singleton manager classes
-* Blinn-Phong Lighting
+* Scene hierarchy
 
 ## Implementation Details/Report
 
