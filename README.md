@@ -4,7 +4,7 @@ A graphics and game engine written in C++ using OpenGL (GLFW/GLAD) featuring ske
 
 ## Video (click the picture)
 
-[![Youtube Video](https://i.imgur.com/64DItm3.png)](https://www.youtube.com/watch?v=beHrmCplhaQ)
+[![Youtube Video](https://i.imgur.com/64DItm3.png)](https://www.youtube.com/watch?v=WQy98Tkl2Cc)
 
 ## Features
 * Skeletal animation w/ playback controls
